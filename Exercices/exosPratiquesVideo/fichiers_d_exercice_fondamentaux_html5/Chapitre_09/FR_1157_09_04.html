@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>La gestion des formulaires</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="FR_1157_09_04.css">
+<script src="FR_1157_09_04.js"></script>
+</head>
+
+<body>
+<form role="form">
+<input type="hidden" id="info_cle" value="XJ45-7" aria-hidden="true">
+  <ul>
+    <li>
+      <label id="lblnom" for="nom">Nom&thinsp;:</label>
+      <input  tabindex="1" required type="text" id="nom" placeholder="Entrez votre nom" aria-labelledby="lblnom" value="" aria-required="true"/>
+    </li>
+    <li>
+      <label id="lblemail" for="email">E-mail&thinsp;:</label>
+      <input type="email" id="email" placeholder="Précisez votre e-mail" tabindex="0" value="" aria-labelledby="lblemail" aria-required="false"/>
+    </li>
+    <li>
+      <label id="lblobjet" for="objet">Objet&thinsp;:</label>
+      <input type="text" required id="objet" placeholder="Indiquez l'objet de votre message" tabindex="-1" value="" aria-labelledby="lblobjet" aria-required="true"/>
+    </li>
+    <li>
+      <label id="lblterme" for="terme">Termes&thinsp;:</label>
+      <input tabindex="0" type="checkbox" aria-checked="false" aria-labelledby="lblterme" value="" id="terme"/>
+    </li>
+    <li>
+      <label id="lblmessage" for="message">Message&thinsp;:</label>
+      <textarea required id="message" tabindex="0" aria-labelledby="lblmessage" aria-required="true"></textarea>
+    </li>
+  </ul>
+</form>
+</body>
+</html>

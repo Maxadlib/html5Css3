@@ -1,0 +1,16 @@
+#WFIPBLOCKS - Do not remove this line. Disable Web Caching in Wordfence to remove this data.
+Order Deny,Allow
+#Do not remove this line. Disable Web Caching in Wordfence to remove this data - WFIPBLOCKS
+# ----------------------------------------------------------------------
+# | Parmètre la version de PHP à utiliser                              |
+# ----------------------------------------------------------------------
+SetEnv PHP_VER 5_4
+
+
+# ----------------------------------------------------------------------
+# | File access                                                        |
+# ----------------------------------------------------------------------
+<IfModule mod_autoindex.c>
+    Options Indexes
+</IfModule>
+

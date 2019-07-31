@@ -1,0 +1,34 @@
+body {
+	margin: 0 auto;
+	width:960px;
+	color : yellow;
+}
+header {
+	
+}
+nav {
+	
+}
+nav li {
+	display:inline-block;
+}
+aside {
+	
+}
+main {
+	display: block;
+	padding-top:34px;
+}
+footer {
+	margin: 20px 0;
+}
+
+/* MISE EN PLACE */
+header, nav, aside, main, footer {
+	/*outline: 1px red solid;*/
+	outline: 1px yellow solid;
+	padding: 10px;
+	/*background-color:hsla(32,84%,23%,0.28);*/
+	background-color:black;
+	margin:10px;
+}

@@ -1,0 +1,23 @@
+article, .article {
+	margin:10px;
+	padding:10px;
+	border: 1px brown solid;
+	border-radius:12px;
+}
+header, .header, footer, .footer {
+	padding:10px;
+	background-color:hsla(26,52%,49%,0.39);
+}
+section, .section {
+	padding: 0 20px;
+}
+h1, .article .titre {
+	font-weight: bold;
+	font-size: 16px;
+	color:brown;
+}
+h2, .section .titre {
+	font-weight: bold;
+	font-size: 14px;
+	color:brown;
+}

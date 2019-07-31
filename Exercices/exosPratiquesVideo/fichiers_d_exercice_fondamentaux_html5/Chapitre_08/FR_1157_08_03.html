@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RDFa Lite</title>
+</head>
+
+<body>
+<div vocab="http://schema.org/" typeof="Organisation">
+  <h1 property="legalName">Puce et Média</h1>
+  <section property="description">
+    <h2>Description&thinsp;:</h2>
+    <img property="logo" src="../../Fichiers_source/Chapitre_08/logo.png"/>
+    <meta property="http://purl.org/acco/ns#petsAllowed" content="false">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, hic, nobis, aliquam inventore porro ut sequi nam provident corporis consequuntur dicta assumenda ipsam&thinsp;! Delectus officia earum sed consequatur quaerat voluptatem.</p>
+  </section>
+  <section vocab="http://schema.org/" typeof="Language">
+    <h2>Langues parlées</h2>
+    <ul property="availableLanguage">
+        <li> <span property="name">Français</span>, <span property="alternateName">fr</span></li> 
+        <li> <span property="name">English</span>, <span property="alternateName">en</span></li>
+        <li> <span property="name">Spanish</span>, <span property="alternateName">es</span></li>
+    </ul>
+  </section>
+  <section property="owns" vocab="http://schema.org/" typeof="Person">
+    <h2>Contact</h2>
+    <span property="gender">M.</span> <span property="name">Birnou Sébarte</span>
+    <p property="address" vocab="http://schema.org/" typeof="PostalAddress">
+      <span property="streetAddress">1, impasse de la pie</span><br>
+      <span property="postalCode">13490</span> <span property="addressLocality">Jouques</span></p>
+    <p> <strong>Tél. portable</strong>&thinsp;: <a property="telephone" href="tel:0613500912">06 12 34 56 78</a> </p>
+    <p> <strong>Tél</strong>&thinsp;: <a property="telephone" href="tel:0442676173">01 23 45 67 89</a> </p>
+    <p> <strong>E-mail</strong>&thinsp;: <a property="email" href="mailto:bsebarte@puce-et-media.com">bsebarte@puce-et-media.com</a> </p>
+    <p> <strong>Web</strong>&thinsp;: <a property="url" href="http://www.puce-et-media.com">www.puce-et-media.com</a> </p>
+  </section>
+  <section vocab="http://xmlns.com/foaf/0.1/" typeof="Group">
+      <h2>Membre, de l'<span property="name">Association 1901 Puce et Média</span></h2>
+      <ul>
+        <li property="knows" typeof="Person"><span property="name">Birnou</span>
+        <li property="knows" typeof="Person"><span property="name">Hélène</span></li>
+        <li property="knows" typeof="Person"><span property="name">Michel</span></li>
+      </ul>
+  </section>
+  <section property="geo" vocab="http://schema.org/" typeof="GeoCoordinates"> <strong>GPS</strong>&thinsp;: 43°37’14&nbsp;»<strong>N</strong>&nbsp;&nbsp; 5°39’23&nbsp;»<strong>E</strong><br>
+    <meta property="latitude" content="43.631547">
+    <meta property="longitude" content="5.635554">
+  </section>
+</div>
+</body>
+</html>

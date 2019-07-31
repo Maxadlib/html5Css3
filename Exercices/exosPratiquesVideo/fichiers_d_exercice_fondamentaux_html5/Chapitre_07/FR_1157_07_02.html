@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les images, picture et srcset</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		@viewport {
+		   width: device-width; 
+		   zoom: 1; 
+		}
+		body {
+			font-family: sans-serif;
+			color: grey;
+			background: #fff url(../css/grille-10px.png);
+		}
+	</style>
+</head>
+
+<body>
+		<img 	src="FR_1157_07_02/FR_1157_07_02.jpg" 
+        		sizes="(min-width: 590px) 100vw, 50vw"
+        		srcset="
+                    FR_1157_07_02/FR_1157_07_02-400.jpg 400w, 
+                    FR_1157_07_02/FR_1157_07_02-500.jpg 500w, 
+                    FR_1157_07_02/FR_1157_07_02-600.jpg 600w"
+                alt="">  
+                <!-- 1x, 2x, 3x -->
+</body>
+</html>
+ 

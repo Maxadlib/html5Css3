@@ -1,0 +1,31 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;
+}
+table {
+	padding: 1em;
+	margin:0.4em;
+
+	border-collapse:separate;
+	border-spacing:10px;
+	width:80%;
+	margin: 0 auto;
+}
+th {
+	font-size: 1.2em;
+	background-color: hsla(26,52%,49%,0.99);
+}
+td {
+	font-size: 1.1em;
+	background-color: hsla(26,52%,49%,0.19);
+}
+tfoot td {
+	background-color: hsla(26,52%,49%,0.59);
+}
+caption {
+	text-align:left;
+	margin:0 0 0 10px;
+	padding:0;
+	font-size: 1.2em;
+}

@@ -1,0 +1,40 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;	
+}
+form {
+	padding: 1em;
+	width:80%;
+	margin: 0 auto;	
+	font-size: 1.2em;
+}
+fieldset {
+	background-color: hsla(26,52%,49%,0.39);	
+	border:1px solid brown;
+	border-radius:10px;
+	height: 100px;
+	margin: 10px 0;
+}
+legend {
+	font-size: 1.2em;	
+	
+}
+
+[type="button"],[type="submit"],[type="reset"] {
+	background-color: hsla(26,52%,49%,0.59);
+	color: brown;		
+	border:2px solid brown;
+	border-radius:10px;
+	font-size: 1em;
+	line-height: 1em;
+	margin-right:10px;
+	padding: 4px;
+}	
+reserve {
+	background-color: rgba(217,163,0,0.8);
+	text-align:left;
+	margin:0 0 0 10px;
+	padding:0;
+	font-size: 1.2em;
+}

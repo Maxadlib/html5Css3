@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Les images et autres informations non visuelles</title>
+</head>
+
+<body>
+
+	<figure role="presentation" aria-describedby="descriptif" aria-labelledby="titre-presentation">
+        <div id="descriptif" name="descriptif">
+            <h3>Déclaration</h3>
+            <p id="descriptif-court">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, esse tempora eum doloremque voluptatibus mollitia error perspiciatis sunt adipisci quasi nostrum atque eius perferendis et aliquam accusamus alias&thinsp;! Consectetur, sequi.</p>
+        </div>
+    	<img src="FR_1157_09_03.png" alt="Description du map Susy" aria-describedby="descriptif-court" longdesc="#descriptif">
+        <code>
+            $susy: (<br>
+                &nbsp;columns: 16,<br>
+                &nbsp;gutters: 1/2,<br>
+                &nbsp;math: fluid,<br>
+                &nbsp;output: float,<br>
+                &nbsp;gutter-position: inside<br>
+            );            
+        </code>
+        <figcaption id="titre-presentation">Description du map Susy</figcaption>
+    </figure>
+</body>
+</html>

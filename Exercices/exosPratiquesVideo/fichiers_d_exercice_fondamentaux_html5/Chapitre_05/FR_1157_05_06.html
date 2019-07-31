@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menus de navigation</title>
+<link rel="stylesheet" href="FR_1157_05_06.css">
+</head>
+
+<body>
+<article>
+    <nav>
+        <a href="#">Menu 1</a>
+        <a href="#">Menu 2</a>
+        <a href="#">Menu 3</a>
+        <a href="#">Menu 4</a>
+    </nav>
+</article>
+<article>
+    <!-- nav>ul>(li>a[href="#"]>{Menu $})*4  -->
+    <nav>
+        <ul>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a>
+              <ul>
+                <li><a href="#">Menu 2.1</a></li>
+                <li><a href="#">Menu 2.2</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Menu 3</a></li>
+            <li><a href="#">Menu 4</a></li>
+        </ul>
+    </nav>      
+</article>
+<article>
+    <nav>
+        <h1>Sommaire</h1>
+        <section>
+            <h2>Introduction</h2>
+            <ul>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a>
+                  <ul>
+                    <li><a href="#">Menu 2.1</a></li>
+                    <li><a href="#">Menu 2.2</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Présentation</h2>
+            <ul>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+            </ul>
+        </section>
+    </nav>      
+</article>
+<article>
+    <!-- menu>(li>a[href="#"]>{Menu $})*4 -->
+    <menu>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+        <li><a href="#">Menu 4</a></li>
+    </menu>
+</article>
+<article contextmenu="menucontextuel">
+    <menu type="context" id="menucontextuel">
+        <menuitem label="Menu 1"></menuitem>
+        <menu label="Menu 2">
+            <menuitem label="Menu 2.1"></menuitem>
+            <menuitem label="Menu 2.2"></menuitem>
+        </menu>
+        <menuitem label="Menu 3"></menuitem>
+    </menu>
+</article>
+<footer>  
+</footer>
+</body>
+</html>

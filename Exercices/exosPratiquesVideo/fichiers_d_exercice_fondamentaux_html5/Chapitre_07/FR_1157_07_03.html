@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Image vs figure</title>
+<link rel="stylesheet" href="../css/reset.css">
+<style>
+	figure {
+		width:240px;
+		margin:0.4em;
+		border:2px solid brown;
+		border-radius:10px;
+		background-color: hsla(26,52%,49%,0.39);
+		color:hsla(33,79%,18%,0.99)
+	}
+	figure h3 {
+		padding: 0.45em;
+		background-color:hsla(26,52%,49%,0.79);
+		border-radius:10px 10px 0 0;
+	}
+	figure p {
+		font-size: 12px;
+		padding:0.4em;
+	}
+	figure code {
+		display:block;
+		font-size: 12px;
+		padding:0.4em;
+		width: 80%;
+		margin: 0 auto;
+	}
+	figure img {
+		margin:0.4em auto;
+		display: block;
+	}
+	figure figcaption {
+		font-size: 13px;
+		text-align:center;
+		padding:0.4em;
+	}
+</style>
+</head>
+
+<body>
+	<figure>
+    	<h3>Déclaration</h3>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, esse tempora eum doloremque voluptatibus mollitia error perspiciatis sunt adipisci quasi nostrum atque eius perferendis et aliquam accusamus alias&thinsp;! Consectetur, sequi.</p>
+    	
+    	<img src="FR_1157_07_03.png" alt="">
+    	<code>
+	        $susy: (<br>
+				&nbsp;columns: 16,<br>
+				&nbsp;gutters: 1/2,<br>
+				&nbsp;math: fluid,<br>
+				&nbsp;output: float,<br>
+				&nbsp;gutter-position: inside<br>
+			);            
+        </code>
+        <figcaption>Description du map Susy</figcaption>
+    </figure>
+	
+</body>
+</html>

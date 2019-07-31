@@ -1,0 +1,23 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;	
+}
+form {
+	padding: .5em;
+	width:90%;
+	margin: 10px auto;	
+	font-size: 1em;
+	display:block;
+	background-color: hsla(26,52%,49%,0.59);
+	color: brown;		
+	border:2px solid brown;
+	margin:;
+}
+input {
+	font-size: 0.9em;
+	line-height: 0.9em;
+	margin:1%;
+	padding: 1%;
+	width:28%;
+}	

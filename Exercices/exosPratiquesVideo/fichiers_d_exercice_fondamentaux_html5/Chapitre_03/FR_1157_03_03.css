@@ -1,0 +1,28 @@
+body {
+	margin: 0 auto;
+	width:960px;
+}
+header {
+	
+}
+nav {
+	
+}
+nav li {
+	display:inline-block;
+}
+main {
+	display: block;
+	padding-top:34px;
+}
+footer {
+	margin: 20px 0;
+}
+
+/* MISE EN PLACE */
+header, nav, main, footer {
+	outline: 1px red solid;
+	padding: 10px;
+	background-color:hsla(32,84%,23%,0.28);
+	margin:10px;
+}

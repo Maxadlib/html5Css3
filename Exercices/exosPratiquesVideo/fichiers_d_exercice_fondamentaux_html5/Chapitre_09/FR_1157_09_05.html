@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Les menus de navigation</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="FR_1157_09_05.css">
+<script src="FR_1157_09_05.js"></script>
+</head>
+<body>
+<nav role="navigation" aria-label="Navigation générale"  aria-labelledby="labelmenu">
+  <h3 id="labelmenu">Navigation générale</h3>
+  <ul role="menubar" aria-activedescendant="">
+    <li tabindex="0"><a role="menuitem" href="#">Menu 1</a></li>
+    <li tabindex="0"><a role="menuitem" href="#" aria-haspopup="true" id="menu2">Menu 2</a>
+      <ul role="menu" aria-labelledby="menu2" aria-expanded="false">
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 2.1</a></li>
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 2.2</a></li>
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 2.3</a></li>
+      </ul>
+    </li>
+    <li tabindex="0"><a role="menuitem" href="#" aria-haspopup="true" id="menu3">Menu 3</a>
+      <ul role="menu" aria-labelledby="menu3" aria-expanded="false">
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 3.1</a></li>
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 3.2</a></li>
+      </ul>
+    </li>
+    <li tabindex="0"><a role="menuitem" href="#" aria-haspopup="true" id="menu4">Menu 4</a>
+      <ul role="menu" aria-labelledby="menu4" aria-expanded="false">
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 4.1</a></li>
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 4.2</a></li>
+        <li tabindex="-1"><a role="menuitem" href="#">Menu 4.3</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;	
+}
+form {
+	padding: 1em;
+	width:520px;
+	margin: 0 auto;	
+	font-size: 1.2em;
+}
+
+label {
+	display: inline-block;
+	font-size: 10px;	
+	width: 120px;
+	text-align:right;
+	padding-right:0.6em;
+}
+input , textarea, select {
+	width:300px;
+	box-sizing:border-box;
+}
+textarea {
+	vertical-align: text-top;
+	height:100px;
+}

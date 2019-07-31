@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Microdata</title>
+</head>
+
+<body>
+<div itemscope itemtype="http://schema.org/Organisation">
+  <h1 itemprop="legalName">Puce et Média</h1>
+  <section itemprop="description">
+    <h2>Description&thinsp;:</h2>
+    <img property="logo" src="../../Fichiers_source/Chapitre_08/logo.png"/>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, hic, nobis, aliquam inventore porro ut sequi nam provident corporis consequuntur dicta assumenda ipsam&thinsp;! Delectus officia earum sed consequatur quaerat voluptatem.</p>
+  </section>
+  <section itemscope itemtype="http://schema.org/Language">
+    <h2>Langues parlées</h2>
+    <ul itemprop="availableLanguage">
+        <li> <span itemprop="name">Français</span>, <span itemprop="alternateName">fr</span></li>
+        <li> <span itemprop="name">English</span>, <span itemprop="alternateName">en</span></li>
+        <li> <span itemprop="name">Spanish</span>, <span itemprop="alternateName">es</span></li>
+    </ul>
+  </section>
+  <section itemprop="owns" itemscope itemtype="http://schema.org/Person">
+    <h2>Contact</h2>
+    <span itemprop="gender">M.</span> <span itemprop="name">Birnou Sébarte</span>
+    <p itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+      <span itemprop="streetAddress">1, impasse de la pie</span><br>
+      <span itemprop="postalCode">13490</span> <span itemprop="addressLocality">Jouques</span></p>
+    <p> <strong>Tél. portable</strong>&thinsp;: <a itemprop="telephone" href="tel:0613500912">06 12 34 56 78</a> </p>
+    <p> <strong>Tél</strong>&thinsp;: <a itemprop="telephone" href="tel:0442676173">01 23 45 67 89</a> </p>
+    <p> <strong>E-mail</strong>&thinsp;: <a itemprop="email" href="mailto:bsebarte@puce-et-media.com">bsebarte@puce-et-media.com</a> </p>
+    <p> <strong>Web</strong>&thinsp;: <a itemprop="url" href="http://www.puce-et-media.com">www.puce-et-media.com</a> </p>
+  </section>
+  <section itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+    <h2>Localisation</h2>
+    <strong>GPS</strong>&thinsp;: 43°37’14&nbsp;»<strong>N</strong>&nbsp;&nbsp; 5°39’23&nbsp;»<strong>E</strong><br>
+    <meta itemprop="latitude" content="43.631547">
+    <meta itemprop="longitude" content="5.635554">
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;	
+}
+footer {
+	padding: 1em;
+	width:80%;
+	margin: 0 auto;	
+	font-size: 1.2em;
+	background-color: hsla(26,52%,49%,0.39);	
+	border:1px solid brown;
+	border-radius:10px;
+}
+p {
+	font-size: 1em;
+	line-height: 1em;
+	margin:0;
+	padding:0;
+}	
+

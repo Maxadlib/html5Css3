@@ -1,0 +1,26 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;
+}
+article {
+	border: 1px rgba(101,36,70,1.00) solid;
+	border-radius: 1em;
+	padding: 1em;
+	margin:0.4em;
+	background-color: hsla(26,52%,49%,0.39);
+}
+h1 {
+	font-size: 1.2em;
+}
+h2 {
+	font-size: 1.1em;
+}
+a {
+	font-size: 0.8em;
+	line-height: 1.5;
+	text-decoration:none;
+}
+footer {
+	height:200px;
+}

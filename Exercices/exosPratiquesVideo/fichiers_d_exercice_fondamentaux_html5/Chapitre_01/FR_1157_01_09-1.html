@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Shim et Polyfill</title>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<style>
+		body 	{
+			font-family: “Arial”, sans-serif;
+			font-size: 2.25em;
+			line-height: 125%;
+		}
+		section {
+			padding:0 2em;
+			border-radius: 1.5em;
+		}
+		.hsla p {
+			color: hsla(64,12%,24.5%,0.9);
+		}
+		.hsla section {
+			border: 0.25em solid hsla(64,12%,24.5%,0.8);
+			background-color: hsla(64,12%,24.5%,0.3);
+		}
+		.no-hsla p {
+			color:#454637;
+		}
+		.no-hsla section {
+			border: 0.25em solid #454637;
+			background-color: #C3C4BF;
+		}
+	</style>
+</head>
+<body>
+	<section>
+    	<h1 id="titre">Travailler en toutes situations</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis perspiciatis cum facere commodi consequatur facilis sit labore incidunt obcaecati voluptatibus nihil sunt quidem velit quam asperiores quo, atque repudiandae ipsam&thinsp;?</p>
+		<p>Voluptatem quam magni debitis aliquam. Ullam officia alias iusto id quis possimus mollitia consequuntur, ut eligendi culpa impedit, laudantium earum&thinsp;! Tempore labore animi dolorum dolorem aperiam rem ad maiores eveniet.</p>
+	</section>
+	<script>
+		//console.log(Modernizr.video)
+		if (window.jQuery) {
+			console.log("JQuery :" + $('#titre'))
+		} else {
+			console.log("Natif :" + document.getElementById('titre'))
+
+		}
+	</script>
+</body>
+</html>

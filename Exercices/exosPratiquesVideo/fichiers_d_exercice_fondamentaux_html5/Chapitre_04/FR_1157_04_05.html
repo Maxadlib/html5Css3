@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Citations courtes, longues et abréviations</title>
+<style>
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+	color: hsl(30, 100%, 40%);
+}
+blockquote {
+	border: 1px hsl(30, 100%, 40%) solid;
+	border-radius: 1em;
+	padding: 0 0.6em;
+	background-color: rgba(255,153,51,0.2);
+}
+q {
+	quotes: "\201C""\201D""\2018""\2019";
+}
+q::before {
+	content: open-quote;
+	font-size: 1.2em;
+}
+q::after {
+	content: close-quote;
+	font-size: 1.2em;
+} 
+
+article p , section{
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+}
+</style>
+</head>
+<body>
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eum non cupiditate odio facere fugit nulla neque laboriosam autem quam&thinsp;!</blockquote>
+
+<blockquote cite="http://www.reference.info/lapage">
+  <h3>Titre de cette citation</h3>
+  <p>Esse, quia, a porro ex dolore dignissimos excepturi commodi inventore repellendus odio quae tenetur earum fuga blanditiis itaque nulla consequatur repellat nostrum voluptate ducimus sapiente vitae quos et quo nobis. Maxime, maiores odit incidunt ipsam cum error beatae sed autem asperiores ipsa. </p>
+</blockquote>
+
+<article>
+  <p>Nous voilà revenus à une époque où, je cite&thinsp;: <q cite="http://www.reference.info/lapage">il vaut mieux chanter maintenant&thinsp;!</q>, et ne pas danser en dehors de la cadence.</p>
+  <p>Comme disait l'autre <q>&thinsp;Voici une réponse qui <q>&thinsp;fâche&thinsp;</q>...&thinsp;</q></p>
+  <p>Dans son dernier ouvrage <cite>Citons</cite>, Ernest Zitapolio nous présente sa vision des citations.</p>
+</article>
+
+<section>La principale mission de la <abbr title="Chambre Nationale de la Citation" lang="fr">CNC</abbr> est de recenser et cataloguer les diverses sources de la <abbr title="Every Quotes Agency" lang="en">EQA</abbr>.</section>
+</body>
+</html>

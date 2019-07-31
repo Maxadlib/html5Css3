@@ -1,0 +1,47 @@
+body {
+	font-family: "Avant Garde", Avantgarde, sans-serif;
+	font-size: 100%;
+	color: brown;	
+}
+ul[role="menubar"] {
+	position: absolute;
+}
+a {
+	display:block;
+	width:120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+ul[role="menubar"]>li {
+	display:inline-block;
+	float: left;
+}
+li a {
+	color: brown;
+	background: hsla(32,84%,23%,0.28);
+}
+li:hover a,
+li a:focus {
+	color: white;
+	background: brown;
+}
+li:hover ul a,
+li ul a:focus {
+	background: hsla(32,84%,23%,0.28) ;
+	color: brown;
+}
+li:hover ul a:hover,
+li:focus ul a:focus {
+	color: white;
+	background: brown;
+}
+li ul {
+	display: none;
+}
+ul li:hover a + ul[role="menu"], ul[role="menu"]:hover,
+ul li a:focus + ul[role="menu"] {
+	display: block;
+}
+
