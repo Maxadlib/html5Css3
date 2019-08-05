@@ -1,0 +1,13 @@
+- repérer et marquer les différentes parties du site sur la maquette
+
+- créer la structure html de base (doctype, html head, body)
+
+- créer la structure html de base pour le body avec les balises html5 (header, nav, section, footer) à partir des marquages de  la maquette
+
+- écrire le nom des balises sans code html à partir des marquages de  la maquette
+
+- coder les balises en html avec le contenu
+
+- faire le document html en entier avant de commencer le html
+
+- vérifier son code en affichant le code source sous firefox
