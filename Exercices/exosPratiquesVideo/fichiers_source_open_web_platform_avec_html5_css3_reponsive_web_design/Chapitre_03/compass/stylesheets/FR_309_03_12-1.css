@@ -1,0 +1,26 @@
+/* line 13, E:/Projects/FR_309_Resp_web_design/Fichiers_source/Chapitre_03/compass/sass/FR_309_03_12-1.scss */
+.souligne, .cible h1, .cible h2 {
+  border-bottom: 1px dotted #4c6600;
+}
+
+/* line 17, E:/Projects/FR_309_Resp_web_design/Fichiers_source/Chapitre_03/compass/sass/FR_309_03_12-1.scss */
+.cible {
+  color: #394d00;
+  background-color: #d2ff4d;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: #4c6600 2px 2px 10px;
+  -moz-box-shadow: #4c6600 2px 2px 10px;
+  box-shadow: #4c6600 2px 2px 10px;
+}
+/* line 4, E:/Projects/FR_309_Resp_web_design/Fichiers_source/Chapitre_03/compass/sass/FR_309_03_12-1.scss */
+.cible h1 {
+  font-size: 1.2em;
+}
+/* line 8, E:/Projects/FR_309_Resp_web_design/Fichiers_source/Chapitre_03/compass/sass/FR_309_03_12-1.scss */
+.cible h2 {
+  font-size: 1.1em;
+}

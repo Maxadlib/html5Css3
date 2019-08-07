@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+p{ background-position: 0 0; width: 643px; height: 45px; } 
+p:hover{ background-position: 0 -95px; width: 643px; height: 44px; } 
+p:active{ background-position: 0 -189px; width: 643px; height: 44px; }
+
+
+p {
+    background: url(FR_309_06_04-1.png) no-repeat top left;
+	text-indent:-9999px;
+} 

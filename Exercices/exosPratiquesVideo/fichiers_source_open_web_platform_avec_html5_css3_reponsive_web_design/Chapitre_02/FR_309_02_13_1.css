@@ -1,0 +1,72 @@
+
+body {
+	margin: 0;
+	padding: 10px;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+body > header {
+	background-color: #BDEBBC;
+	overflow:hidden;
+}
+body > header hgroup {
+	background-color: #E8F9E8;
+	padding: 1em;
+	display: block;
+	margin: 1em;
+}
+body > nav {
+	background-color: #BDEBBC;
+	margin: 1em;
+	padding: 1em;
+	width:100%;
+	overflow:hidden;
+}
+nav li {
+	background-color: #E8F9E8;
+	padding: 0.5em;
+	margin: 0.2em 1em;
+}
+nav[role=navigation] li{
+	float: left;
+}
+body > section {
+	width: 80%;
+	float: left;
+	overflow: hidden;
+	background-color: #BDEBBC;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+section > article, section > aside {
+	background-color: #E8F9E8;
+	margin: 1em;
+	padding: 1em;
+}
+
+body > aside {
+	float: right;
+	width: 20%;
+	background-color: #BDEBBC;
+	padding-bottom: 10px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+body > footer {
+	background-color: #BDEBBC;
+	clear: both;
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}

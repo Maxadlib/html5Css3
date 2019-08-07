@@ -1,0 +1,120 @@
+@import url("../../webfonts/AurulentSans_Regular/stylesheet.css");
+@import url("../../webfonts/Bevan/stylesheet.css");
+
+body {
+	padding: 0.8em 0;
+	font-size: 100%;
+	font-family: "AurulentSans Regular";
+}
+.container {
+	width: 98%;
+	margin: 0 auto; 
+}
+header {
+	overflow:hidden;
+}
+nav {
+	width: 100%;
+	overflow:hidden;
+}
+nav ul {
+	margin:0 auto;
+}
+nav li {
+	font-family: Bevan;
+	font-size: 0.875em;
+	color: #666666;
+	background-color:rgb(91,73,19);
+	color:rgb(204,204,191);
+}
+
+
+hgroup h1 {
+	font-family: Bevan;
+	color:rgb(208,197,178);
+}
+hgroup h2 {
+	font-family: Bevan;
+	color: rgb(91,73,19);
+}
+hgroup p {
+	color:rgb(134,114,82);
+}
+img.imgrwd {
+	width:100%;
+}
+article.col {
+	background-color:#F2F2F2;
+	overflow:hidden;
+	margin:1em 1%;
+	padding:1.5%;
+}
+article.col h1 {
+	font-size:0.75em;
+	font-weight:bold;
+	color:#666666;
+}
+article.col p {
+	font-size:0.625em;
+	color:#666666;
+}
+article.row h2 {
+	margin-top:1em;
+	font-family: Bevan;
+	font-size:0.8125em;
+	color:#505043;
+}
+article.row p {
+	font-family: Bevan;
+	font-size: 0.6875em;
+	color: #CCCCBF;
+	background-image: url(../commun/puce.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 44px;
+}
+aside h2 {
+	font-family: Bevan;
+	font-size:0.9375em;
+	color:rgb(204,204,191);
+	background-color:rgb(91,73,19);
+	padding:0.5em;
+}
+aside ul {
+	margin-top:1em;
+}
+aside li{
+	clear:left;
+	margin-bottom:1em;
+	overflow:hidden;
+}
+aside figure {
+	margin:0 0.4em 0 0.8em;
+}
+aside figure img{
+	float: left;
+	margin-right: 0.6em;
+}
+aside figcaption{
+	font-size: 0.75em;
+	color: #505043;
+}
+aside p {
+	color:#505043;
+	font-size:0.6875em;
+	margin:0.5em;
+}
+footer img{
+	float:left;
+	margin:0.5em;
+}
+footer h1 {
+	font-family: Bevan;
+	font-size:0.875em;
+	color:#505043;
+	margin-top:1em;
+}
+footer p {
+	font-size:0.6em;
+	margin:1em 2em 0 0;
+}

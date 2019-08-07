@@ -1,0 +1,37 @@
+article {
+	margin-bottom:1em;
+}
+/* :column */
+table {
+	width:100%;
+	
+}
+td {
+	border: 1px solid #696;	
+	text-align:center
+}
+
+colgroup.cc col.a {
+	background-color: rgba(105,140,0,0.15); 
+}
+
+.colonne {
+	-webkit-column-count:4;
+	-webkit-column-rule-color:rgba(105,140,0,0.45); 
+	-webkit-column-rule-style: inset;
+	-webkit-column-rule-width:1px; 	
+}
+blockquote{
+	margin:0;
+	padding:0;
+	background-color: rgba(105,140,0,0.15); 
+	-webkit-column-span:all;
+}
+p:first-letter{
+	font-size:2em;
+	display:block;
+	vertical-align:text-top;
+	float:left;
+	margin-right:0.2em;
+}
+

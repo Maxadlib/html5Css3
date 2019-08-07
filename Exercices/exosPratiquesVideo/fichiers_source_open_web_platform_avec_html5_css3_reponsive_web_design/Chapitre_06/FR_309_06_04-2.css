@@ -1,0 +1,57 @@
+.titre, li {
+	background: url("FR_309_06_04-2.jpg") top left no-repeat;
+	text-indent:-9999px;
+}
+li {
+	display:inline-block;
+}
+.titre {
+	width: 219px;
+	height: 100px;
+	background-position: -10px -10px;
+}
+.titre:hover {
+	width: 219px;
+	height: 100px;
+	background-position: -10px -120px;
+}
+.flickr {
+	width: 39px;
+	height: 40px;
+	background-position: -10px -230px;
+}
+.flickr:hover {
+	width: 39px;
+	height: 40px;
+	background-position: -59px -230px;
+}
+.twitter {
+	width: 39px;
+	height: 40px;
+	background-position: -108px -230px;
+}
+.twitter:hover {
+	width: 39px;
+	height: 40px;
+	background-position: -157px -230px;
+}
+.rss {
+	width: 39px;
+	height: 40px;
+	background-position: -10px -280px;
+}
+.rss:hover {
+	width: 39px;
+	height: 40px;
+	background-position: -59px -280px;
+}
+.delicious {
+	width: 40px;
+	height: 39px;
+	background-position: -108px -280px;
+}
+.delicious:hover {
+	width: 40px;
+	height: 39px;
+	background-position: -158px -280px;
+}

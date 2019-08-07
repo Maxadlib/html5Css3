@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="modernizr.custom.js"></script>
+<script>
+	window.onload = function(){
+		Modernizr.load({
+		  test: Modernizr.canvas,
+		  nope: 'flashcanvas.js',
+		  complete: function(){
+				var cadre = document.getElementById("cadre");
+				if (!Modernizr.canvas){
+					FlashCanvas.initElement(cadre);
+				}
+				cadre.width = 600;
+				cadre.height = 600;
+				
+				var ctx = cadre.getContext("2d");
+				ctx.fillStyle = "#BBCB8C";
+				ctx.strokeStyle = "#4C6600";
+			
+				ctx.fillRect(100, 100, 200, 200);
+				ctx.strokeRect(100, 100, 200, 200);
+			 }
+		});	
+	
+	}
+	
+</script>
+
+<title>Untitled Document</title>
+</head>
+
+<body>
+<canvas id="cadre"></canvas>
+</body>
+</html>

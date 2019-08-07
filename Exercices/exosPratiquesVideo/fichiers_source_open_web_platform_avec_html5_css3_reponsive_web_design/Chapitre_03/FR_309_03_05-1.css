@@ -1,0 +1,13 @@
+
+/* ~vs +*/
+.a + .b {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #f00;
+}
+.a + .c {
+	background-color: #6C3;
+}
+.a ~ .c {
+	color: #F96;
+}

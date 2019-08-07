@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #fff;
+}
+.container {
+	width: 970px;
+	background-color: #CCC;
+	margin: 0 auto;
+	padding: 10px;
+}
+header {
+	width: 100%;
+	background-color: #999;
+	margin-bottom: 10px;
+}
+section {
+	width: 650px;
+	background-color: #999;
+	display: inline-block;
+}
+aside {
+	width: 310px;
+	background-color: #999;
+	display: inline-block;
+	margin-left: 10px;
+}
+footer {
+	margin-top:10px;
+	width: 100%;
+	background-color: #999;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #fff;
+}
+.container {
+	width: 90%;
+	max-width:1200px;
+	min-width:700px;
+	background-color: #CCC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	width: 97.938144329%;
+	margin: 1.030927835% auto;
+	background-color: #999;
+
+}
+section {
+	width: 64.94845360824742%; /* 630px / 970px */
+	margin: 0 0.515463917% 1.030927835% 1.030927835%;
+	background-color: #999;
+	float: left;
+	overflow: hidden;
+}
+
+aside {
+	width: 31.9587628865%;
+	margin: 0 1.030927835% 1.030927835% 0.515463917%;
+	background-color: #999;
+	float: right;
+}
+
+footer {
+	margin: 1.030927835% auto;
+	width: 97.938144329%;
+	background-color: #999;
+	clear:both;
+}

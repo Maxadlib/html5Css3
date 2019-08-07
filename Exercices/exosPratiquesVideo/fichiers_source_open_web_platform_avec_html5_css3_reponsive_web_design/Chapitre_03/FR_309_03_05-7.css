@@ -1,0 +1,14 @@
+p::selection {
+	background-color:rgba(105,140,0,0.5);
+	color:#900;
+}
+
+p.moz::-moz-selection {
+	background-color:rgba(105,140,0,0.5);
+	color:#900;
+}
+
+p.webkit::-webkit-selection {
+	background-color:rgba(105,140,0,0.5);
+	color:#900;
+}

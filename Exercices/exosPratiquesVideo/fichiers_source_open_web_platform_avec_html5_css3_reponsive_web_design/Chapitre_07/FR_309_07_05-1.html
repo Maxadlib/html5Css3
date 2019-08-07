@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../reset.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.15em;
+	font-style: italic;
+	background: url(../grille.png) repeat left top;
+}
+section {
+	width:800px;
+}
+article {
+	height: 50px;
+	width: 100px;
+	background-color: rgba(51,102,0,0.3);
+		-webkit-transition:width 10s;
+}
+section:hover article{
+	width: 600px;
+
+}
+.linear {
+	-webkit-transition-timing-function: linear;
+}
+.ease {
+	-webkit-transition-timing-function: ease;
+}
+.ease-in {
+	-webkit-transition-timing-function: ease-in;
+}
+.ease-out {
+	-webkit-transition-timing-function: ease-out;
+}
+.ease-in-out {
+	-webkit-transition-timing-function: ease-in-out;
+}
+.step-start {
+	-webkit-transition-timing-function: step-start;/*steps(1,start)*/
+}
+.step-end {
+	-webkit-transition-timing-function: step-end;/*steps(1,end)*/
+}
+.steps {
+	-webkit-transition-timing-function: steps(4);
+}
+
+</style>
+</head>
+
+<body>
+<section>
+    <article class="linear">Linear</article>
+    <article class="ease">ease</article>
+    <article class="ease-in">ease-in</article>
+    <article class="ease-out">ease-out</article>
+    <article class="ease-in-out">ease-in-out</article>
+    <article class="step-start">step-start</article>
+    <article class="step-end">step-end</article>
+    <article class="steps">steps</article>
+<section>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	font-style: italic;	
+}
+div {
+	height: 100px;
+	width: 400px;
+	background-color: rgba(51,102,0,0.3);
+}
+.transition {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.transitions {
+	-webkit-transition-property: background-color, height; 
+	-webkit-transition-duration: 2s, 0.5s;
+	-webkit-transition-delay: 0s, 0.5s;
+	-webkit-transition-timing-function: ease-in, ease-out;
+	
+	-moz-transition-property: background-color, height; 
+	-moz-transition-duration: 2s, 0.5s;
+	-moz-transition-delay: 0s, 0.5s;
+	-moz-transition-timing-function: ease-in, ease-out;
+	
+	-o-transition-property: background-color, height; 
+	-o-transition-duration: 2s, 0.5s;
+	-o-transition-delay: 0s, 0.5s;
+	-o-transition-timing-function: ease-in, ease-out;
+	
+	-ms-transition-property: background-color, height; 
+	-ms-transition-duration: 2s, 0.5s;
+	-ms-transition-delay: 0s, 0.5s;
+	-ms-transition-timing-function: ease-in, ease-out;
+	
+	transition-property: background-color, height; 
+	transition-duration: 2s, 0.5s;
+	transition-delay: 0s, 0.5s;
+	transition-timing-function: ease-in, ease-out;
+}
+.transition:hover {
+	height:40px;
+}
+.transitions:hover {
+	background-color:#99C;
+	height:40px;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="transition">Transition</div>
+<div class="transitions">Transitions</div>
+
+
+
+</body>
+</html>

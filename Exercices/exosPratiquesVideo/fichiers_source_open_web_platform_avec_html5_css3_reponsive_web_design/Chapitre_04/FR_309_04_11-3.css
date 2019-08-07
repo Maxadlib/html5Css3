@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #fff;
+}
+.container {
+	width: 80%;
+	background-color: #CCC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	width: 98%;
+	margin: 1% auto;
+	background-color: #999;
+
+}
+section {
+	width: 65%;
+	margin: 0 0.5% 1% 1%;
+	background-color: #999;
+	float: left;
+	overflow: hidden;
+}
+
+aside {
+	width: 32%;
+	margin: 0 1% 1% 0.5%;
+	background-color: #999;
+	float: right;
+}
+
+footer {
+	margin: 1% auto;
+	width: 98%;
+	background-color: #999;
+	clear:both;
+}

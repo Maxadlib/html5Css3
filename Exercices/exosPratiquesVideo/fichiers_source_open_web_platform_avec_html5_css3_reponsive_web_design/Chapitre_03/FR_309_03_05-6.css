@@ -1,0 +1,10 @@
+
+
+/* [a=b i] */
+@namespace spec "http://localhost";
+.attribut li[spec|class="a" i] {
+	background-color: rgba(105,140,0,0.5);
+}
+li:not([class])  {
+	color:#900;
+}

@@ -1,0 +1,55 @@
+.container {
+	max-width: 650px;
+	min-width: 331px;
+}
+nav {
+	margin-bottom:1.5em;
+}
+nav li {
+	float:left;
+	margin-left:1.03092783505%;
+	padding:0.5em;
+	width:12.5%;
+}
+nav li em {
+	display:none;
+}
+hgroup {
+	width: 60%;
+	float:left;
+	clear:both;
+	margin-left:1.125em;
+}
+hgroup h1 {
+	font-size:1.125em;
+}
+hgroup h2 {
+	font-size:1.375em;
+}
+hgroup p {
+	font-size:0.6875em;
+}
+header figure {
+	margin-right: 0.5em;
+	float: right;
+	width: 30.1538%;
+}
+aside {
+	float:right;
+	width:50%;
+}
+article.col {
+	float:left;
+	width:45%;
+}
+article.row {
+	float:left;
+	width:48%;
+	overflow:hidden;
+	margin:0 1%;
+}
+footer {
+	width:48%;
+	float:left;
+	margin-top:0.5em;
+}

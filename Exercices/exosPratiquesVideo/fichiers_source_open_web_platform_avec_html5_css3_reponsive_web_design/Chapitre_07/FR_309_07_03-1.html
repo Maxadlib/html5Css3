@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../reset.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	font-style: italic;
+	background: url(../grille.png) repeat left top;
+}
+div {
+	height: 100px;
+	width: 400px;
+	background-color: rgba(51,102,0,0.3);
+}
+
+
+
+.transform2D-scale {
+	-webkit-transform:scale(1,0.5);
+	-moz-transform:scale(1,0.5);
+	-o-transform:scale(1,0.5);
+	-ms-transform:scale(1,0.5);
+	transform:scale(1,0.5);		
+}
+.transform2D-skew {
+	-webkit-transform:skew(23deg,10deg);
+	-moz-transform:skew(23deg,10deg);
+	-o-transform:skew(23deg,10deg);
+	-ms-transform:skew(23deg,10deg);
+	transform:skew(23deg,10deg);		
+}
+.transform2D-translate {
+	-webkit-transform:translate(100px,10px);
+	-moz-transform:translate(100px,10px);
+	-o-transform:translate(100px,10px);
+	-ms-transform:translate(100px,10px);
+	transform:translate(100px,10px);		
+}
+.transform3D {
+	-webkit-transform:rotateX(120deg);
+	-moz-transform:rotateX(120deg);
+	-o-transform:rotateX(120deg);
+	-ms-transform:rotateX(120deg);
+	transform:rotateX(120deg);
+	/*-webkit-transform:rotateZ(120deg);
+	-moz-transform:rotateZ(120deg);
+	-o-transform:rotateZ(120deg);
+	-ms-transform:rotateZ(120deg);
+	transform:rotateZ(120deg);	*/			
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="transform2D-scale">Transform 2D Scale</div>
+<div class="transform2D-skew">Transform 2D Skew</div>
+<div class="transform2D-translate">Transform 2D Translate</div>
+<div class="transform3D">Transform 3D</div>
+
+
+
+</body>
+</html>

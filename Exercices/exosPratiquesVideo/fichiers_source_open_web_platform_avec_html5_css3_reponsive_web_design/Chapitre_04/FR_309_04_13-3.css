@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #fff;
+}
+.container {
+	width: 90%;
+	max-width:1200px;
+	min-width:700px;
+	background-color: #CCC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	width: 97.938144329%;
+	margin: 1.030927835% auto;
+	background-color: #999;
+
+}
+section {
+	width: 64.9484536082%;
+	margin: 0 0.515463917% 1.030927835% 1.030927835%;
+	background-color: #999;
+	float: left;
+	overflow: hidden;
+}
+article {
+	float:left;
+	width:49.206349206%;
+	background-color:rgb(233,228,220);
+
+}
+article + article {
+	margin-left:1.587301587%;
+}
+figure {
+	width:95.483870967%;
+	margin:1.93548387% auto;
+}
+article figure img {
+	width:100%;
+}
+aside {
+	width: 31.9587628865%;
+	margin: 0 1.030927835% 1.030927835% 0.515463917%;
+	background-color: #999;
+	float: right;
+}
+
+footer {
+	margin: 1.030927835% auto;
+	width: 97.938144329%;
+	background-color: #999;
+	clear:both;
+}

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="841.89px" height="595px" viewBox="0 0 841.89 595" enable-background="new 0 0 841.89 595" xml:space="preserve">
+<defs>
+	<script  xlink:href="FR_309_08_11.js"  language="JavaScript">
+	</script>
+</defs>
+<symbol  id="Lumiere" viewBox="-5 -5 10 10">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#8CC63F" d="M5,0c0-2.762-2.238-5-5-5s-5,2.238-5,5s2.238,5,5,5S5,2.762,5,0z"
+		/>
+</symbol>
+<g id="murs">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFCD66" stroke="#231F20" stroke-miterlimit="3.8637" d="M133.8,102.367v344
+		h478v-344H133.8z M106.8,75.367h532v398h-532V75.367z"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="4,4" x1="106.992" y1="102.503" x2="133.154" y2="102.503"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="4,4" x1="611.992" y1="102.503" x2="638.154" y2="102.503"/>
+	<rect x="107.8" y="75.367" fill-rule="evenodd" clip-rule="evenodd" fill="#9A9A9A" width="350" height="27"/>
+	
+		<rect x="106.992" y="102.503" fill-rule="evenodd" clip-rule="evenodd" fill="#9A9A9A" stroke="#231F20" stroke-miterlimit="3.8637" width="27.415" height="371.179"/>
+	<g>
+		
+			<rect x="230.776" y="446.367" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="3.8637" width="166" height="27"/>
+		
+			<rect x="230.776" y="454.367" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="3.8637" width="166" height="7"/>
+	</g>
+	<g>
+		<polygon fill="#FFFFFF" points="106.8,192.367 133.8,192.367 133.8,352.367 127.8,352.367 120.8,352.367 106.8,352.367 		"/>
+		
+			<rect x="120.8" y="192.367" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="7" height="160"/>
+		
+			<rect x="106.8" y="192.367" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="27" height="160"/>
+	</g>
+	<g>
+		<polygon fill="#FFFFFF" points="611.338,129.367 638.806,129.367 638.806,255.367 632.702,255.367 625.581,255.367 
+			611.338,255.367 		"/>
+		
+			<rect x="625.581" y="129.367" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-width="1.5132" stroke-miterlimit="3.8637" width="7.121" height="126"/>
+		
+			<rect x="611.338" y="129.367" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-width="1.5132" stroke-miterlimit="3.8637" width="27.468" height="126"/>
+	</g>
+	<g>
+		<polygon fill="#FFFFFF" points="611.338,309.823 638.806,309.823 638.806,420.822 632.702,420.823 625.581,420.823 
+			611.338,420.822 		"/>
+		
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-width="1.5132" stroke-miterlimit="3.8637" points="
+			625.581,309.823 632.447,310.323 632.447,421.323 625.581,420.823 		"/>
+		
+			<rect x="611.338" y="309.823" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-width="1.5132" stroke-miterlimit="3.8637" width="27.468" height="110.999"/>
+	</g>
+	
+		<rect x="107.065" y="277.442" opacity="0.58" fill-rule="evenodd" clip-rule="evenodd" fill="#9A9A9A" stroke="#231F20" stroke-miterlimit="3.8637" width="28.015" height="74"/>
+</g>
+<g id="mobilier">
+	<g>
+		<g>
+			
+				<rect x="488.728" y="295.819" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="120" height="60"/>
+			
+				<rect x="368.413" y="275.878" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="120" height="80"/>
+		</g>
+		<g>
+			
+				<rect x="368.413" y="214.773" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="120" height="60"/>
+			
+				<rect x="488.439" y="214.931" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="120" height="80"/>
+		</g>
+	</g>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" points="
+		226.924,443.323 136.927,443.319 136.921,313.326 226.918,313.33 	"/>
+	
+		<rect x="135.8" y="103.898" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="80" height="62"/>
+	
+		<rect x="468.707" y="419.143" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="69.998" height="26.979"/>
+	
+		<rect x="540.402" y="419.143" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="69.998" height="26.979"/>
+	
+		<rect x="527.662" y="104.149" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="79.998" height="29.999"/>
+	<g>
+		
+			<rect x="322.717" y="103.908" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="60" height="20"/>
+		<text transform="matrix(1 0 0 1 363.7729 122.0156)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">60x20</text>
+	</g>
+	<g>
+		
+			<rect x="290.252" y="103.909" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="30" height="19.999"/>
+		<text transform="matrix(1 0 0 1 302.2729 122.0156)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">30x20</text>
+	</g>
+	<g>
+		
+			<rect x="308.688" y="162.239" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="93" height="30"/>
+		<text transform="matrix(1 0 0 1 310.8989 169.877)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">93x30</text>
+	</g>
+	<g>
+		
+			<rect x="237.533" y="162.147" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E59617" stroke-miterlimit="3.8637" stroke-dasharray="2" width="70" height="30"/>
+		<text transform="matrix(1 0 0 1 238.2993 169.7842)" fill="#E2901A" font-family="'MyriadPro-It'" font-size="7">70x30</text>
+	</g>
+	<text transform="matrix(1 0 0 1 196.4146 163.4199)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">80x60</text>
+	<text transform="matrix(1 0 0 1 588.5796 132.4727)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">80x30</text>
+	<g>
+		
+			<rect x="218.197" y="104.256" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="69.998" height="19.999"/>
+		<text transform="matrix(1 0 0 1 268.8726 121.5264)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">70x20</text>
+	</g>
+	<text transform="matrix(1.1119 0 0 1 519.3608 444.5684)" fill="#999999" font-family="'MyriadPro-It'" font-size="6.2954">70x30</text>
+	<text transform="matrix(1 0 0 1 507.2632 132.5273)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">70x30</text>
+	<g>
+		
+			<rect x="420.859" y="419.633" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="47.998" height="25.998"/>
+		<text transform="matrix(1.1538 0 0 1 422.7407 426.1133)" fill="#999999" font-family="'MyriadPro-It'" font-size="6.0667">47x30</text>
+	</g>
+	<g>
+		<text transform="matrix(2.3559 0 0 1 145.4951 323.4785)" fill="#999999" font-family="'MyriadPro-It'" font-size="4.5606">66x43</text>
+		
+			<rect x="140.02" y="282.867" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="66" height="43"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 458.5483 404.2383)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">43x43</text>
+		
+			<rect x="454.75" y="364.283" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="43.001" height="42.999"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 468.8579 202.1035)" fill="#999999" font-family="'MyriadPro-It'" font-size="7">43x43</text>
+		
+			<rect x="465.098" y="162.147" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" width="43" height="42.999"/>
+	</g>
+</g>
+<g id="mesures">
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="141.218,43.453 141.218,45.953 134.968,43.453 
+			141.218,40.953 141.218,43.453 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="605.098,43.453 605.098,40.953 611.348,43.453 
+			605.098,45.953 605.098,43.453 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="140.8" y1="43.453" x2="605.515" y2="43.453"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="611.929" y1="74.996" x2="611.929" y2="19.539"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="639.429" y1="74.996" x2="639.429" y2="19.539"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="134.558" y1="76.082" x2="134.558" y2="22.109"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="107.558" y1="76.082" x2="107.558" y2="22.109"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="114.718,43.453 114.718,45.953 108.468,43.453 
+			114.718,40.953 114.718,43.453 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="128.598,43.453 128.598,40.953 134.848,43.453 
+			128.598,45.953 128.598,43.453 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="114.3" y1="43.453" x2="129.015" y2="43.453"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="618.717,43.453 618.717,45.953 612.467,43.453 
+			618.717,40.953 618.717,43.453 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="632.598,43.453 632.598,40.953 638.848,43.453 
+			632.598,45.953 632.598,43.453 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="618.3" y1="43.453" x2="633.015" y2="43.453"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,109.44 671.269,109.44 673.769,103.19 
+			676.269,109.44 673.769,109.44 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,440.32 676.269,440.32 673.769,446.57 
+			671.269,440.32 673.769,440.32 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="673.769" y1="109.023" x2="673.769" y2="440.738"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="642.226" y1="448.152" x2="724.683" y2="448.152"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="642.226" y1="475.652" x2="724.683" y2="475.652"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="641.14" y1="102.781" x2="722.113" y2="102.781"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="641.14" y1="75.781" x2="722.113" y2="75.781"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,82.94 671.269,82.94 673.769,76.69 
+			676.269,82.94 673.769,82.94 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,96.821 676.269,96.821 673.769,103.071 
+			671.269,96.821 673.769,96.821 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="673.769" y1="82.523" x2="673.769" y2="97.238"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,454.94 671.269,454.94 673.769,448.69 
+			676.269,454.94 673.769,454.94 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="673.769,468.82 676.269,468.82 673.769,475.07 
+			671.269,468.82 673.769,468.82 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="673.769" y1="454.523" x2="673.769" y2="469.238"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="105.512" y1="277.228" x2="24.54" y2="277.228"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="104.426" y1="190.856" x2="21.969" y2="190.856"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,439.068 75.383,439.068 72.883,445.318 
+			70.383,439.068 72.883,439.068 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,283.188 70.383,283.188 72.883,276.938 
+			75.383,283.188 72.883,283.188 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="72.883" y1="439.486" x2="72.883" y2="282.771"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,184.568 75.383,184.568 72.883,190.818 
+			70.383,184.568 72.883,184.568 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,109.688 70.383,109.688 72.883,103.438 
+			75.383,109.688 72.883,109.688 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="72.883" y1="184.986" x2="72.883" y2="109.271"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,270.568 75.383,270.568 72.883,276.818 
+			70.383,270.568 72.883,270.568 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,197.688 70.383,197.688 72.883,191.438 
+			75.383,197.688 72.883,197.688 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="72.883" y1="270.986" x2="72.883" y2="197.271"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="104.426" y1="103.356" x2="21.969" y2="103.356"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="104.426" y1="75.856" x2="21.969" y2="75.856"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="105.512" y1="445.728" x2="24.54" y2="445.728"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="105.512" y1="472.728" x2="24.54" y2="472.728"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,465.568 75.383,465.568 72.883,471.818 
+			70.383,465.568 72.883,465.568 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,451.688 70.383,451.688 72.883,445.438 
+			75.383,451.688 72.883,451.688 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="72.883" y1="465.986" x2="72.883" y2="451.271"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,96.568 75.383,96.568 72.883,102.818 
+			70.383,96.568 72.883,96.568 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="72.883,82.688 70.383,82.688 72.883,76.438 
+			75.383,82.688 72.883,82.688 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="72.883" y1="96.986" x2="72.883" y2="82.271"/>
+	</g>
+	<rect x="371.8" y="32.167" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="11"/>
+	<text transform="matrix(1 0 0 1 371.8003 40.2275)" fill="#999999" font-family="'ArialMT'" font-size="10">4,73</text>
+	<rect x="615.8" y="32.167" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="21"/>
+	<text transform="matrix(1 0 0 1 615.8003 40.2275)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="111.3" y="32.167" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="21"/>
+	<text transform="matrix(1 0 0 1 111.3003 40.2275)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="60.298" y="341.588" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="11" height="23.288"/>
+	<text transform="matrix(0 -1 1 0 68.3579 364.876)" fill="#999999" font-family="'ArialMT'" font-size="10">2, 10</text>
+	<rect x="60.298" y="224.36" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="11" height="20.516"/>
+	<text transform="matrix(0 -1 1 0 68.3579 244.876)" fill="#999999" font-family="'ArialMT'" font-size="10">0,86</text>
+	<rect x="60.298" y="137.37" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="11" height="19.516"/>
+	<text transform="matrix(0 -1 1 0 68.3579 156.8857)" fill="#999999" font-family="'ArialMT'" font-size="10">0,90</text>
+	<rect x="60.298" y="79.36" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="21" height="20.516"/>
+	<text transform="matrix(0 -1 1 0 68.3579 99.876)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="60.298" y="448.86" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="21" height="20.516"/>
+	<text transform="matrix(0 -1 1 0 68.3579 469.376)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="667.303" y="452.859" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="21" height="20.516"/>
+	<text transform="matrix(0 1 -1 0 680.2437 452.8594)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="667.303" y="80.359" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="21" height="20.516"/>
+	<text transform="matrix(0 1 -1 0 680.2437 80.3594)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="141.114,538.74 141.114,541.24 134.864,538.74 
+			141.114,536.24 141.114,538.74 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="224.994,538.74 224.994,536.24 231.244,538.74 
+			224.994,541.24 224.994,538.74 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="140.696" y1="538.74" x2="225.411" y2="538.74"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="637.592" y1="551.569" x2="637.592" y2="472.112"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="105.721" y1="551.655" x2="105.721" y2="471.682"/>
+	<rect x="300.067" y="527.68" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="11"/>
+	<text transform="matrix(1 0 0 1 300.0669 535.7402)" fill="#999999" font-family="'ArialMT'" font-size="10">1,66</text>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="134.407" y1="553.655" x2="134.407" y2="473.682"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="111.567,538.74 111.567,541.24 105.317,538.74 
+			111.567,536.24 111.567,538.74 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="128.447,538.74 128.447,536.24 134.697,538.74 
+			128.447,541.24 128.447,538.74 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="111.149" y1="538.74" x2="128.864" y2="538.74"/>
+	</g>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="611.778" y1="553.569" x2="611.778" y2="474.112"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="618.567,538.74 618.567,541.24 612.317,538.74 
+			618.567,536.24 618.567,538.74 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="632.447,538.74 632.447,536.24 638.697,538.74 
+			632.447,541.24 632.447,538.74 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="618.149" y1="538.74" x2="632.864" y2="538.74"/>
+	</g>
+	<rect x="110.711" y="527.68" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="21"/>
+	<text transform="matrix(1 0 0 1 110.7114 535.7402)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="615.307" y="527.68" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="11"/>
+	<text transform="matrix(1 0 0 1 615.3071 535.7402)" fill="#999999" font-family="'ArialMT'" font-size="10">0,27</text>
+	<rect x="667.303" y="259.015" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="21" height="20.516"/>
+	<text transform="matrix(0 1 -1 0 680.2437 259.0146)" fill="#999999" font-family="'ArialMT'" font-size="10">3,60</text>
+	<rect x="173.02" y="527.68" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="20.516" height="11"/>
+	<text transform="matrix(1 0 0 1 173.02 535.7402)" fill="#999999" font-family="'ArialMT'" font-size="10">0,96</text>
+	<rect x="488.543" y="527.68" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="19.855" height="11"/>
+	<text transform="matrix(1 0 0 1 488.5435 535.7402)"><tspan x="0" y="0" fill="#999999" font-family="'ArialMT'" font-size="10">2,</tspan><tspan x="8.34" y="0" fill="#999999" font-family="'ArialMT'" font-size="10">1</tspan><tspan x="13.241" y="0" fill="#999999" font-family="'ArialMT'" font-size="10">1</tspan></text>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="230.78" y1="553.655" x2="230.78" y2="473.682"/>
+	
+		<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="12,2,2,2" x1="396.915" y1="555.655" x2="396.915" y2="473.682"/>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="237.114,538.74 237.114,541.24 230.864,538.74 
+			237.114,536.24 237.114,538.74 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="390.994,538.74 390.994,536.24 397.244,538.74 
+			390.994,541.24 390.994,538.74 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="236.696" y1="538.74" x2="391.411" y2="538.74"/>
+	</g>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="403.249,538.74 403.249,541.24 396.999,538.74 
+			403.249,536.24 403.249,538.74 		"/>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" points="605.128,538.74 605.128,536.24 611.378,538.74 
+			605.128,541.24 605.128,538.74 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#231F20" stroke-miterlimit="3.8637" stroke-dasharray="1,1" x1="402.831" y1="538.74" x2="605.545" y2="538.74"/>
+	</g>
+</g>
+<g id="legendes">
+	<rect x="681.761" y="315.494" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="55.049" height="15"/>
+	<text transform="matrix(1 0 0 1 681.7612 326.7778)"><tspan x="0" y="0" fill="#999999" font-family="'Arial-BoldMT'" font-size="14">V</tspan><tspan x="8.876" y="0" fill="#999999" font-family="'Arial-BoldMT'" font-size="14">ue sud</tspan></text>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#999999" stroke="#999999" points="715.827,299.945 715.827,306.945 
+			698.327,299.945 715.827,292.945 715.827,299.945 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="#999999" stroke="#999999" stroke-width="4" stroke-miterlimit="3.8637" x1="714.659" y1="299.945" x2="731.659" y2="299.945"/>
+	</g>
+	<rect x="318.611" y="548.494" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="74.551" height="15"/>
+	<text transform="matrix(1 0 0 1 318.6108 559.7773)"><tspan x="0" y="0" fill="#999999" font-family="'Arial-BoldMT'" font-size="14">V</tspan><tspan x="8.876" y="0" fill="#999999" font-family="'Arial-BoldMT'" font-size="14">ue facade</tspan></text>
+	<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#999999" stroke="#999999" points="350.61,526.632 343.61,526.632 
+			350.61,509.132 357.61,526.632 350.61,526.632 		"/>
+		
+			<line fill-rule="evenodd" clip-rule="evenodd" fill="#999999" stroke="#999999" stroke-width="4" stroke-miterlimit="3.8637" x1="350.611" y1="525.463" x2="350.611" y2="542.463"/>
+	</g>
+	<text transform="matrix(1 0 0 1 593.4897 218.9326)" fill="#EA2DBE" font-family="'MyriadPro-Bold'" font-size="18">A</text>
+	<text transform="matrix(1 0 0 1 593.4897 299.1865)" fill="#EA2DBE" font-family="'MyriadPro-Bold'" font-size="18">B</text>
+	<text transform="matrix(1 0 0 1 474.0698 232.6143)" fill="#EA2DBE" font-family="'MyriadPro-Bold'" font-size="18">C</text>
+	<text transform="matrix(1 0 0 1 474.0698 292.9385)" fill="#EA2DBE" font-family="'MyriadPro-Bold'" font-size="18">D</text>
+</g>
+<g id="menu">
+	<g id="bt_x5F_murs" onclick="gere('murs')">
+		<path fill="#4A4C4B" d="M702.664,202.104c-4.635,0-8.392,3.757-8.392,8.391c0,4.635,3.757,8.392,8.392,8.392h19.644
+			c0-5.523,0-11.306,0-16.783H702.664z"/>
+		<path fill="#6C6D6D" d="M783.397,202.104h-61.09c0,5.477,0,11.26,0,16.783h61.09c4.635,0,8.392-3.757,8.392-8.392
+			C791.789,205.86,788.032,202.104,783.397,202.104z"/>
+		
+			<use xlink:href="#Lumiere"  width="10" height="10" id="pastille_3_" x="-5" y="-5" transform="matrix(1 0 0 -1 707.0767 210.8267)" overflow="visible"/>
+		<text transform="matrix(1 0 0 1 726.6021 213.5864)" fill="#CCCCCC" font-family="'MyriadPro-Regular'" font-size="10">murs</text>
+	</g>
+	<g id="bt_x5F_mobilier" onclick="gere('mobilier')">
+		<path fill="#4A4C4B" d="M702.664,182.293c-4.635,0-8.392,3.12-8.392,6.968c0,3.849,3.757,6.969,8.392,6.969h19.644
+			c0-4.586,0-9.389,0-13.937H702.664z"/>
+		<path fill="#6C6D6D" d="M783.397,182.293h-61.09c0,4.548,0,9.351,0,13.937h61.09c4.635,0,8.392-3.12,8.392-6.969
+			C791.789,185.413,788.032,182.293,783.397,182.293z"/>
+		
+			<use xlink:href="#Lumiere"  width="10" height="10" id="pastille_2_" x="-5" y="-5" transform="matrix(1 0 0 -0.8304 707.0767 189.5376)" overflow="visible"/>
+		<text transform="matrix(1.2042 0 0 1 726.6021 191.8291)" fill="#CCCCCC" font-family="'MyriadPro-Regular'" font-size="8.3044">mobilier</text>
+	</g>
+	<g id="bt_x5F_mesures" onclick="gere('mesures')">
+		<path fill="#4A4C4B" d="M702.664,159.638c-4.635,0-8.392,3.757-8.392,8.391c0,4.635,3.757,8.392,8.392,8.392h19.644
+			c0-5.523,0-11.306,0-16.783H702.664z"/>
+		<path fill="#6C6D6D" d="M783.397,159.638h-61.09c0,5.477,0,11.26,0,16.783h61.09c4.635,0,8.392-3.757,8.392-8.392
+			C791.789,163.395,788.032,159.638,783.397,159.638z"/>
+		
+			<use xlink:href="#Lumiere"  width="10" height="10" id="pastille_1_" x="-5" y="-5" transform="matrix(1 0 0 -1 707.0767 168.3608)" overflow="visible"/>
+		<text transform="matrix(1 0 0 1 726.6021 171.1206)" fill="#CCCCCC" font-family="'MyriadPro-Regular'" font-size="10">mesures</text>
+	</g>
+	<g id="bt_x5F_legendes" onclick="gere('legendes')">
+		<path fill="#4A4C4B" d="M702.664,138.405c-4.635,0-8.392,3.757-8.392,8.391c0,4.635,3.757,8.392,8.392,8.392h19.644
+			c0-5.523,0-11.306,0-16.783H702.664z"/>
+		<path fill="#6C6D6D" d="M783.397,138.405h-61.09c0,5.477,0,11.26,0,16.783h61.09c4.635,0,8.392-3.757,8.392-8.392
+			C791.789,142.162,788.032,138.405,783.397,138.405z"/>
+		
+			<use xlink:href="#Lumiere"  width="10" height="10" id="pastille" x="-5" y="-5" transform="matrix(1 0 0 -1 707.0767 147.1279)" overflow="visible"/>
+		<text transform="matrix(1 0 0 1 726.6021 149.8872)" fill="#CCCCCC" font-family="'MyriadPro-Regular'" font-size="10">légendes</text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+@couleur:#4C6600;
+@ref:1em;
+
+.cible {
+	padding:5px;
+	width:90%;
+	margin:0 auto;
+	color:@couleur;
+	h1 {
+		font-size: 1.2 * @ref ;
+	}
+	h2 {
+		font-size: 1.1 * @ref ;
+		&.titre {
+			text-transform:uppercase;
+		}
+	}
+}

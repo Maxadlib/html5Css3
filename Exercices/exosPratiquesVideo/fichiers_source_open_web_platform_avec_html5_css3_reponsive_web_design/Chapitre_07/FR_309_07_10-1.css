@@ -1,0 +1,32 @@
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: italic;
+}
+section {
+	opacity:0.3;
+	font-size:1em;
+	overflow:hidden;
+}
+article {
+	background-color: rgb(187,203,140);
+	color:rgb(76,102,0);
+	width:86%;
+	margin:0 auto;
+	margin-bottom:0.5em;
+	padding:0.8em;
+}
+h1 {
+	font-size:1.1em;
+	background-color: rgb(76,102,0);
+	color:rgb(187,203,140);
+}
+h2 {
+	font-size:1em;
+	background-color: rgba(76,102,0,0.6);
+	color:rgb(187,203,140);
+}
+p {
+	
+}

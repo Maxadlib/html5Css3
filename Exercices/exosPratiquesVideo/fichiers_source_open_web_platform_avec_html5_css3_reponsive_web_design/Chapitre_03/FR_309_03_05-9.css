@@ -1,0 +1,10 @@
+
+section {
+	background-color:rgba(105,140,0,0.5);
+	margin:0 auto;
+	width:-o-calc(50% + 10em);
+	width:-ms-calc(50% + 10em);
+	width:-moz-calc(50% + 10em);
+	width:-webkit-calc(50% + 10em);
+	width:calc(50% + 10em);
+}

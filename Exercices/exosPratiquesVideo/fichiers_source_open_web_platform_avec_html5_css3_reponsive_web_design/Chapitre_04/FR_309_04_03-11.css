@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.imprimante {
+	display:block;
+}
+.smartphone {
+	display:none;
+}
+.ecran {
+	display:none;
+}

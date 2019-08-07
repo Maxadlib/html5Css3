@@ -1,0 +1,5 @@
+
+/* 2n+1 */
+.child li:nth-child(2n+1) {
+	background-color: rgba(105,140,0,0.5);
+}

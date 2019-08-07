@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	font-style: italic;	
+}
+div {
+	height: 100px;
+	width: 400px;
+	background-color: rgba(51,102,0,0.3);
+}
+
+.transform2D, .transform3D {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+
+.transform2D:hover {
+	-webkit-transform:scale(1,0.5);
+	-moz-transform:scale(1,0.5);
+	-o-transform:scale(1,0.5);
+	-ms-transform:scale(1,0.5);
+	transform:scale(1,0.5);		
+}
+.transform3D:hover {
+	-webkit-transform:rotateX(180deg);
+	-moz-transform:rotateX(180deg);
+	-o-transform:rotateX(180deg);
+	-ms-transform:rotateX(180deg);
+	transform:rotateX(180deg);
+	/*-webkit-transform:rotateZ(180deg);
+	-moz-transform:rotateZ(180deg);
+	-o-transform:rotateZ(180deg);
+	-ms-transform:rotateZ(180deg);
+	transform:rotateZ(180deg);	*/			
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="transform2D">Transform 2D</div>
+<div class="transform3D">Transform 3D</div>
+
+
+
+</body>
+</html>

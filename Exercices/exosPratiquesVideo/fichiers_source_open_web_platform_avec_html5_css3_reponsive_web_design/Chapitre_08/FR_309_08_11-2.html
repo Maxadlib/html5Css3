@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style>
+	rect {
+		fill:#F2C756;
+		stroke: #9F9903;
+		stroke-width: 1px;
+	}
+</style>
+<script>
+	function changeWidth(evt){
+		var cible = evt.target;
+		cible.setAttribute('width','50')
+	}
+	function changeLargeur(arg){
+		var cible = document.getElementById(arg);
+		cible.setAttribute('width','50')
+	}
+</script>
+</head>
+
+<body>
+<svg xmlns="http://www.w3.org/2000/svg">
+	<rect width="100" height="100" x="20" y="50" onclick="changeWidth(evt);"></rect>
+	<rect width="100" height="100" x="140" y="50" onclick="changeLargeur('cible');"></rect>
+	<rect id="cible" width="100" height="100" x="260" y="50"></rect>
+</svg>                       
+
+</body>
+</html>

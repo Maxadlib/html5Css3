@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+	list-style:none;
+}
+li{
+	clear:both;
+	margin-bottom: 2em;
+	list-style-type: none;
+}
+
+figure img{
+	float: left;
+	margin-right: 1em;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<script>
+	var sortie = null
+	var resultat = ''
+	window.onload = function(){
+		sortie = document.getElementById('sortie')
+		if(navigator.geolocation){
+			navigator.geolocation.getCurrentPosition(
+				donneesObtenues,
+				donneesNonObtenues,
+				{maximumAge:5000, timeout:10000}
+			);
+				
+		} else {
+			sortie.firstChild.nodeValue = 'geolocation non disponible'
+		}
+	}
+	function donneesObtenues(position){
+		var lat = position.coords.latitude;
+		var long = position.coords.longitude;
+		var alt = position.coords.altitude;
+		
+		resultat += 'latitude : ' + lat + ', ' 
+		resultat += 'longitude : ' + long + ', '
+		resultat += 'altitude : ' + alt ;
+		sortie.firstChild.nodeValue = resultat
+	}
+	function donneesNonObtenues(){
+		sortie.firstChild.nodeValue = 'renvoyé vers le message d\'erreur'
+	}
+</script>
+</head>
+
+<body>
+<article id="sortie">Aucun contenu pour l'instant</article>
+</body>
+</html>

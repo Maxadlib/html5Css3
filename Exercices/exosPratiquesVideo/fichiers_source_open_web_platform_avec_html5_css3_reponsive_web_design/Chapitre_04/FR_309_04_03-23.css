@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	padding:1em;
+}
+@media (min-width:801px) {
+	p {
+		background-color:rgba(204,153,0,0.24);
+	}
+}
+@media (max-width:800px) {
+	p {
+		background-color:rgba(51,102,0,0.27);
+	}
+}

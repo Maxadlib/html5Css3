@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../reset.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.15em;
+	font-style: italic;
+	background: url(../grille.png) repeat left top;
+}
+section {
+	width:800px;
+}
+article {
+	height: 50px;
+	width: 100px;
+	background-color: rgba(51,102,0,0.3);
+	-webkit-transition:width 5s;
+	-webkit-transition-timing-function: linear;
+}
+section:hover article{
+	width: 600px;
+}
+.del0 {
+	-webkit-transition-delay: 0
+}
+.del1 {
+	-webkit-transition-delay: 1s
+}
+.del2 {
+	-webkit-transition-delay: 2s
+}
+.del3 {
+	-webkit-transition-delay: 3s
+}
+.del4 {
+	-webkit-transition-delay: 4s
+}
+
+</style>
+</head>
+
+<body>
+<section>
+<article class="del0">sans delai</article>
+<article class="del1">1 sec.</article>
+<article class="del2">2 sec.</article>
+<article class="del3">3 sec.</article>
+<article class="del4">4 sec.</article>
+
+
+<section>
+</body>
+</html>

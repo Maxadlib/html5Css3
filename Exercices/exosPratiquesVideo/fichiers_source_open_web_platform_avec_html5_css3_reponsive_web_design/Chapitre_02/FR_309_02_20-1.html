@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style>
+	article {
+		display:block;
+		margin:0 auto;
+		width:200px;
+		height:140px;
+		border: 3px dotted #CCCCCC;
+		
+	}
+	article:hover {
+		border: 4px solid #F69;
+	}
+
+</style>
+<script>
+	var sortie = null
+	
+	window.onload = function(){
+		sortie = document.getElementById('sortie')
+		sortie.ondrop = function (evt) {
+		  
+		  evt.preventDefault();
+		  var fichier = evt.dataTransfer.files[0];
+		  var reader = new FileReader();
+		  reader.onload = function (arg) {
+			sortie.style.background = 'url(' + arg.target.result + ') no-repeat center';
+		  };
+		  reader.readAsDataURL(fichier);
+		 alert( fichier.name + ": " + fichier.size);
+		 
+		};
+	}
+
+
+</script>
+</head>
+
+<body>
+
+
+<article id="sortie"></article>
+
+</body>
+</html>

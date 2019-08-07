@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../reset.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<style type="text/css">
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.15em;
+	font-style: italic;
+	background: url(../grille.png) repeat left top;
+}
+section {
+	width:800px;
+}
+article {
+	height: 50px;
+	width: 100px;
+	background-color: rgba(51,102,0,0.3);
+		-webkit-transition:width 2s;
+}
+section:hover article{
+	width: 600px;
+
+}
+
+.cubic-bezier1 {
+	-webkit-transition-timing-function: cubic-bezier(0.125, 0.5, 0, 1.0);
+	
+}
+.cubic-bezier2 {
+	-webkit-transition-timing-function: cubic-bezier( 1.0,0 ,0.875, 0.5);
+}
+</style>
+</head>
+
+<body>
+<section>
+    <article class="cubic-bezier1">cubic-bezier</article>
+    <article class="cubic-bezier2">cubic-bezier</article>
+<section>
+</body>
+</html>

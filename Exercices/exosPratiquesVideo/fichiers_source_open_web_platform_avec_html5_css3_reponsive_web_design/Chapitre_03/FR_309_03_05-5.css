@@ -1,0 +1,10 @@
+
+
+/* empty */
+.empty article {
+	height:1em;
+	background-color: rgba(255,153,102,0.46);
+}
+.empty article:empty {
+	border: solid 2px rgba(105,140,0,0.8);
+}

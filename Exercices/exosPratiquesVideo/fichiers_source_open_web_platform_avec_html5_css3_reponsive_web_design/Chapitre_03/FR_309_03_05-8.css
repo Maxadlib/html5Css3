@@ -1,0 +1,21 @@
+h1 {
+	counter-reset: article;
+}
+h2 {
+	counter-increment: article;
+	counter-reset: paraf;
+}
+h2:before {
+	
+	content: counter(article) ": ";
+	
+}
+p {
+	counter-increment: paraf;
+}
+p:before {
+	color:#900;
+	font-weight:bold;
+	font-size:1.05em;
+	content: counter(article)  "-" counter(paraf) "  ";
+}

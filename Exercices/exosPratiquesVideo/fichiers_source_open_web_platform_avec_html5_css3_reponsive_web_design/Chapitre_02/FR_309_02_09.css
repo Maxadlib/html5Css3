@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.section {
+	color: #5E5EFF;
+}
+section {
+	background-color: #CCF;
+	padding:1em;
+	margin:1em;	
+}
+.article {
+	color: #3FBC3F;
+}
+article {
+	background-color: #D2F0D2;	
+	padding:1em;
+	margin:1em;	
+}

@@ -1,0 +1,62 @@
+.container {
+	max-width: 1260px;
+	min-width: 651px;
+}
+nav {
+	margin-bottom:3.5em;
+}
+nav li {
+	float: left;
+	/* [disabled]display:inline-block; */
+	width: 14%;
+	margin: 0 0.5%;
+	padding: 0.5%;
+}
+nav li em {
+	display:block;
+	font-size:0.72em;
+}
+hgroup {
+	width: 56.7010309278%;
+	float: left;
+	clear: both;
+	margin-left: 0.5%;
+}
+hgroup h1 {
+	font-size:1.875em;
+}
+hgroup h2 {
+	font-size:2.5em;
+}
+hgroup p {
+	font-size:0.75em;
+}
+header figure {
+	margin-right: 0.5em;
+	float: right;
+	width: 30.9278%;
+}
+aside {
+	float:right;
+	width:31.9587628865%;
+}
+article.col {
+	float:left;
+	width:45%;
+}
+article.row {
+	margin:1em;
+	clear:left;
+}
+.maincontent {
+	overflow: hidden;
+	float: left;
+	width: 64.9484536082%;
+	margin-bottom:1.5em;
+}
+footer {
+	margin:1em;
+	width:100%;
+	clear:both;
+
+}

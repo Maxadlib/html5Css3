@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+label {
+	display: block;
+}
+:focus {
+	background-color:#FCF;
+}
+</style>
+</head>
+
+<body>
+<form action="" method="post" enctype="application/x-www-form-urlencoded" name="form1">
+  <label for="ch_nom">Nom</label>
+  <input type="text" name="ch_nom" id="ch_nom" autocomplete="off" required>
+  <label for="ch_numero">Numero</label>
+  <input type="text" name="ch_numero" id="ch_numero" placeholder="Tapez votre ISBN">
+  <label for="ch_com">Compétence</label>
+  <input type="text" name="ch_com" id="ch_com" list="competences" autofocus>
+  <datalist id="competences">
+    <option label="Dev" value="Développeur">
+    <option label="Graph" value="Designer">
+    <option label="Int" value="Intégrateur">
+    <option label="Proj" value="Chef de projet"> 
+  </datalist>
+  <input type="submit" name="ch_envoi" id="ch_envoi" value="Validation">
+</form>
+</body>
+</html>

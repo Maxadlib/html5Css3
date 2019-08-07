@@ -1,0 +1,26 @@
+AddType text/x-component htc
+
+AddType application/vnd.ms-fontobject  eot
+AddType application/x-font-ttf    ttf ttc
+AddType font/opentype                  otf
+AddType application/x-font-woff        woff
+
+AddType video/ogg                      ogv
+AddType video/mp4                      mp4 m4v
+AddType video/webm                     webm
+
+
+AddType audio/ogg      oga ogg
+AddType audio/mp4      mp4 mp4a
+AddType audio/aac      aac
+AddType audio/mpeg     mpga mp2 mp2a mp3 m2a m3a
+AddType audio/x-wav    wav
+AddType audio/webm     webm
+AddType audio/x-ms-wma     wma
+
+SetOutputFilter DEFLATE
+
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|ttf|eot|woff|otf)$">
+	Header set Cache-Control "max-age=7200, must-revalidate"
+	#Header set Cache-Control "public"  Header set Expires "Thu, 15 Apr 2300 20:00:00 GMT"
+</filesMatch>

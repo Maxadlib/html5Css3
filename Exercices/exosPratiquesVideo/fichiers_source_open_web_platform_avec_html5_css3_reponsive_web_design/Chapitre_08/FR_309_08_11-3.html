@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style>
+	rect {
+		fill:#F2C756;
+		stroke: #9F9903;
+		stroke-width: 1px;
+	}
+</style>
+
+</head>
+
+<body>
+<svg xmlns="http://www.w3.org/2000/svg">
+	<script type="text/javascript">
+		//<![CDATA[	
+		function changeWidth(arg){
+			var cible = document.getElementById(arg);
+			cible.setAttribute("width","50")
+		}
+		//]]>
+	</script>
+	<rect width="100" height="100" x="20" y="50" onclick="changeWidth('cible');"></rect>
+	<rect id="cible" width="100" height="100" x="140" y="50"></rect>
+</svg>                       
+
+</body>
+</html>

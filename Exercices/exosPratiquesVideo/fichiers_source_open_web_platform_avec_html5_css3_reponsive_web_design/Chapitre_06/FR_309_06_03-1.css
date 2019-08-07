@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	text-decoration: none;
+	text-indent: -9999px;
+	display: block;
+	width: 162px;
+	height: 44px;
+	background-image: url(FR_309_06_03-1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+a:hover {
+	background-position: right top;	
+	
+}

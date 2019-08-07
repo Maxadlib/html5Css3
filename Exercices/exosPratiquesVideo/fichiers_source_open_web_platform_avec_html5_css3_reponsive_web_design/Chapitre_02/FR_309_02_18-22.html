@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<script>
+		window.onload = function(){
+			var sortie = document.getElementById('sortie')
+			if(window.localStorage){
+				var recup = window.localStorage.getItem('stock')
+				sortie.firstChild.nodeValue = recup;
+			}else{
+				sortie.firstChild.nodeValue = 'sessionStorage non activée';
+			}
+		}
+		function vide(){
+			window.localStorage.removeItem('stock');
+		}
+
+</script>
+</head>
+
+<body>
+<p id="sortie">Aucun contenu pour l'instant</p>
+<p onclick="vide()">vider la valeur locale</p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style>
+	#sortie{
+		width:600px;
+		height:400px;
+	}
+</style>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+<script>
+	var cible = null
+	var sortie = null
+	window.onload = function(){
+		cible = document.getElementById("sortie")
+		sortie = new google.maps.Map(cible, {
+			mapTypeId: google.maps.MapTypeId.HYBRID,
+			zoom: 14
+		});
+		if(navigator.geolocation){
+			navigator.geolocation.getCurrentPosition(
+				donneesObtenues,
+				donneesNonObtenues,
+				{maximumAge:5000, timeout:10000}
+			);
+				
+		} else {
+			cible.firstChild.nodeValue = 'geolocation non disponible'
+		}
+	}
+	function donneesObtenues(position){
+		var lat = position.coords.latitude;
+		var long = position.coords.longitude;
+		var latlng = new google.maps.LatLng(lat, long);
+		var fanion = new google.maps.Marker({
+			position: latlng,
+			map: sortie,
+			title:"Votre position..."
+		});
+		
+		sortie.setCenter(latlng);
+	}
+	function donneesNonObtenues(){
+		cible.firstChild.nodeValue = 'renvoyé vers le message d\'erreur'
+	}
+</script>
+</head>
+
+<body>
+<article id="sortie">Aucun contenu pour l'instant</article>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url("../webfonts/Bevan/stylesheet.css");
+/* COMMUNS */
+header, nav, section {
+	width:98%;
+	margin:0 auto;
+	
+}
+hgroup h1, .reseau-sociaux .rss, .reseau-sociaux .twitter, .reseau-sociaux .flickr, .reseau-sociaux .delicious, .panier, .compte, .navigation .fruits, .navigation .legumes, .navigation .cultiver, .navigation .recettes {
+	background-image: url(FR_309_06_03-31.png);
+	/*background-image: url(FR_309_06_03-32.png);*/
+	background-repeat: no-repeat;	
+}
+/* HEADER  */
+hgroup {
+	width:60%;
+	height: 100px;
+	float:left;
+	margin-bottom:10px;
+}
+hgroup h1 {
+	width: 220px;
+	height: 100px;
+	float: left;
+	text-indent: -9999px;
+	background-position: -20px -20px;
+}
+hgroup h2 {
+	/*color: #CDCDBF;*/
+	color: #aaaaaa;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: "Bevan";
+	padding-top: 0.2em;
+}
+/* COMPTES */
+
+.utilisateur div {
+	display:inline-block;
+	text-indent: -9999px;
+	float:right;
+	margin-right:1em;
+}
+.utilisateur div+div {
+	
+	margin-right:0;
+}
+.panier {
+	width: 60px;
+	height: 60px;
+	background-position: -20px -140px;
+}
+.compte {
+	width: 40px;
+	height: 60px;
+	background-position: -180px -140px;
+}
+
+
+/* SOCIAUX */
+.reseau-sociaux li {
+	display:inline-block;
+	width:40px;
+	height:40px;
+	text-indent:-9999px;
+	float:right;
+}
+.reseau-sociaux .rss {
+	background-position: -260px -20px;	
+}
+.reseau-sociaux .twitter {
+	background-position: -260px -80px;
+}
+.reseau-sociaux .flickr {
+	background-position: -260px -140px;
+}
+.reseau-sociaux .delicious {
+	background-position: -260px -200px;
+}
+.reseau-sociaux  li.rss:hover {
+	background-position: -320px -20px;	
+}
+.reseau-sociaux  li.twitter:hover {
+	background-position: -320px -80px;
+}
+.reseau-sociaux  li.flickr:hover {
+	background-position: -320px -140px;
+}
+.reseau-sociaux  li.delicious:hover {
+	background-position: -320px -200px;
+}
+
+
+/* NAV */
+nav ul {
+	clear:both;
+}
+nav ul li {
+	display:inline-block;
+	width:160px;
+	height:40px;
+	text-align:center;
+	padding-top:10px;
+}
+.navigation li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #595959;
+} 
+.navigation .fruits, .navigation .legumes, .navigation .cultiver, .navigation .recettes {
+	background-position: -20px -260px;	
+}
+.navigation  li.fruits:hover, .navigation  li.legumes:hover, .navigation  li.cultiver:hover, .navigation  li.recettes:hover {
+	background-position: -200px -260px;
+	/* color:#CDCDBF;*/
+}
+

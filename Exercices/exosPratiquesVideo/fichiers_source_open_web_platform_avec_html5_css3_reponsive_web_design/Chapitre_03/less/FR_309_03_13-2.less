@@ -1,0 +1,30 @@
+@couleur:#4C6600;
+@ref:1em;
+
+.gereboite (@angle:1em,@coul:@couleur){
+	-webkit-border-radius: @angle;
+	-moz-border-radius: @angle;
+	-ms-border-radius: @angle;
+	-o-border-radius: @angle;
+	border-radius: @angle;
+	-webkit-box-shadow: @coul 2px 2px 10px;
+	-moz-box-shadow: @coul 2px 2px 10px;
+	box-shadow: @coul 2px 2px 10px;
+}
+
+.cible {
+	padding:5px;
+	width:90%;
+	margin:0 auto;
+	color:@couleur;
+	h1 {
+		font-size: 1.2 * @ref ;
+	}
+	h2 {
+		font-size: 1.1 * @ref ;
+		&.titre {
+			text-transform:uppercase;
+		}
+	}
+	.gereboite(1.2em)
+}

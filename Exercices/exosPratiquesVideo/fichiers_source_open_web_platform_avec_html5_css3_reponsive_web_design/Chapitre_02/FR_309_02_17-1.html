@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>Test
+      <th>Result
+  <tfoot>
+    <tr>
+      <th>Average
+      <td>82%
+  <tbody>
+    <tr class="a">
+      <td>A
+      <td>87%
+    <tr class="a">
+      <td>B
+      <td>78%
+    <tr>
+      <td>C
+      <td>81%
+</table>
+<script>
+	var p = document.querySelectorAll("tbody tr.a");
+	
+	for (var i = 0; i < p.length; i++) {
+	  p[i].style.backgroundColor="#EBFFAE";
+	}
+</script>
+</body>
+</html>

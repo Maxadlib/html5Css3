@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+	text-decoration: none;
+	
+	width: 643px;
+	height: 44px;
+	background-image: url(FR_309_06_03-21.png);
+	/*background-image: url(FR_309_06_03-22.png);*/
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+ul li {
+	float:left;
+	width:25%;
+	height:100%;
+}
+a {
+	text-indent: -9999px;
+	display: block;
+	width:100%;
+	height:100%;
+}
+a:hover {
+	background-image: url(FR_309_06_03-21.png);
+	/*background-image: url(FR_309_06_03-22.png);*/
+	background-repeat: no-repeat;
+}
+.fichier a:hover {
+	background-position: 0 -50px;
+}
+.edition a:hover {
+	background-position: -160px -50px;
+}
+.affichage a:hover {
+	background-position: -320px -50px;
+}
+.aide a:hover {
+	background-position: -480px -50px;
+}
+.fichier a:active {
+	background-position: 0 -100px;
+}
+.edition a:active {
+	background-position: -160px -100px;
+}
+.affichage a:active {
+	background-position: -320px -100px;
+}
+.aide a:active {
+	background-position: -480px -100px;
+}
