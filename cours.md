@@ -9,4 +9,9 @@
 - polyfills : petit bout de code qui permet au navigateur de comprendre les mediaqueries si il ne les comprend pas de base.
 - Shim : Cible un navigateur ou une catégorie de navigateurs.
 - Lire article de Mark Boulton : five simple steps to designing (pdf dans cours)
-- bases pour croquis papier dispos dans 960gridSystem (dans docALire)
+- bases pour croquis papier dispos dans 960gridSystem (dans dossier docALire)
+- Lire [ARIA sur les intégristes](https://www.lesintegristes.net/2008/12/09/introduction-a-wai-aria-traduction/ "je consulte")
+- Lire [ARIA sur w3.org](https://dev.w3.org/html5/spec/single-page.html#table-aria-weak "je consulte")
+- Lire [API sur html5-overview.net](http://html5-overview.net/current "je consulte")
+- Lire [Blog très cool front-back-agile et cie](https://blog.xebia.fr/ "je consulte")
+- Lire [Démos d'API html5](https://bestvpn.org/html5demos/ "je consulte")
