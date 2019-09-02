@@ -1,7 +1,7 @@
 # Cours HTML5 / CSS3
 ## Séquence 1
 ### Vidéo L'essentiel du HTML5
-- Pour accessibilité : www.web-pour-tous.org/soutien_loi_numerique/ et www.pompage.net/traduction/evaluer-accessibilite/ et www.lesintegristes.com
+- Pour accessibilité : [soutien loi numérique sur web-pour-tous](https://www.web-pour-tous.org/soutien_loi_numerique/ "je consulte") et [évaluer accessibilité sur pompage.net](https://www.pompage.net/traduction/evaluer-accessibilite/ "je consulte") et https://www.lesintegristes.net
 - www.w3.org/TR/wai-aria/ les rôles des éléments html (ex : `<nav role="navigation">` ou `<figure role="presentation">`)
 - extension pour chrome : WAVE web accessibility evaluation tool
 ### Vidéo "L'essentiel de l'open web platform"
@@ -15,3 +15,11 @@
 - Lire [API sur html5-overview.net](http://html5-overview.net/current "je consulte")
 - Lire [Blog très cool front-back-agile et cie](https://blog.xebia.fr/ "je consulte")
 - Lire [Démos d'API html5](https://bestvpn.org/html5demos/ "je consulte")
+- sessionStorage et localStorage permettent de développer des applications hors connexion web.
+- Lire [application hors-ligne sur Webia.fr](https://blog.xebia.fr/2010/12/17/application-hors-ligne-html5-le-javascript/ "je consulte")
+- Lire [HTML5 Security Cheatsheet](http://html5sec.org/ "je consulte")
+- Lire [Les failles de sécurités et les contourner sur HTML5 Security Cheatsheet](http://html5sec.org/ "je consulte")
+- Lire [Les problématiques de sécurités objet par objet sur OWASP](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html "je consulte")
+- Lire [Ce que mon navigateur prend en compte par html5test](https://html5test.com/ "je consulte")
+- Lire [les fonctionnalités prises en compte par navigateurs](https://caniuse.com/ "je consulte")
+
