@@ -22,4 +22,6 @@
 - Lire [Les problématiques de sécurités objet par objet sur OWASP](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html "je consulte")
 - Lire [Ce que mon navigateur prend en compte par html5test](https://html5test.com/ "je consulte")
 - Lire [les fonctionnalités prises en compte par navigateurs](https://caniuse.com/ "je consulte")
-
+- Lire [Learn Sass](https://sass-lang.com/guide "je consulte") et [Documentation de Sass](https://sass-lang.com/documentation "je consulte")
+- Lire [CCS Lint pour vérifier ses CSS](http://csslint.net/ "je consulte")
+- Lire [A list apart](https://alistapart.com/ "je consulte"), [Ethan Marcotte](https://ethanmarcotte.com/ "je consulte") et [unstoppablerobotninja.com by Ethan Marcotte](http://unstoppablerobotninja.com "je consulte")
