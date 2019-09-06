@@ -25,3 +25,9 @@
 - Lire [Learn Sass](https://sass-lang.com/guide "je consulte") et [Documentation de Sass](https://sass-lang.com/documentation "je consulte")
 - Lire [CCS Lint pour vérifier ses CSS](http://csslint.net/ "je consulte")
 - Lire [A list apart](https://alistapart.com/ "je consulte"), [Ethan Marcotte](https://ethanmarcotte.com/ "je consulte") et [unstoppablerobotninja.com by Ethan Marcotte](http://unstoppablerobotninja.com "je consulte")
+- 1 quadratin = 1 em (se réfère à la taille du *parent*) `body {font-size:100%};.em {font-size:1em;}
+- padding vertical, bordure et font-size en em
+- rem est un em qui se réfère à la racine.
+- Prendre le [reset d'Eric Meyer](https://meyerweb.com/eric/tools/css/reset/ "je consulte")
+- Retirer les numéros des versions des fichiers scripts (ex : jquery984.js > jquery.js)
+- La librairie `Response.js` permet de d'afficher différents contenus selon taille d'écran 
