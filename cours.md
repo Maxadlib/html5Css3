@@ -30,4 +30,14 @@
 - rem est un em qui se réfère à la racine.
 - Prendre le [reset d'Eric Meyer](https://meyerweb.com/eric/tools/css/reset/ "je consulte")
 - Retirer les numéros des versions des fichiers scripts (ex : jquery984.js > jquery.js)
-- La librairie `Response.js` permet de d'afficher différents contenus selon taille d'écran 
+- La librairie `Response.js` permet de d'afficher différents contenus selon taille d'écran
+- [Les webfonts en action](http://webfonts.info "je consulte")
+- Déposer le fichier de license de la typo sur le site.
+- [Créer sa typo](https://fontstruct.com/ "je consulte")
+- Possibilité de convertir sa police sur fontsquirrel/generator
+- Des icônes font : somerandomdude.com, fontello.com, fontawesome.github et designer-daily.com
+- Dans `htaccess`, ajouter les types de polices, d'audio et de vidéo. Ex: voir htaccess template sur htmlboilerplate.
+- [W3Schools CSS référence !](https://www.w3schools.com/cssref// "je consulte")
+- CSS3/HTML5 [Super veille Tympanus/codrop !](https://tympanus.net "je consulte") et [bien sûr !](https://codepen.io "je consulte")
+- jQuery [Le site jQuery](https://jquery.com "je consulte")
+- Veille en mozaïque [1stwebdesigner](https://1stwebdesigner.com/ "je consulte") et [bien sûr !](https://codepen.io "je consulte")
