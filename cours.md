@@ -41,3 +41,8 @@
 - CSS3/HTML5 [Super veille Tympanus/codrop !](https://tympanus.net "je consulte") et [bien sûr !](https://codepen.io "je consulte")
 - jQuery [Le site jQuery](https://jquery.com "je consulte")
 - Veille en mozaïque [1stwebdesigner](https://1stwebdesigner.com/ "je consulte") et [bien sûr !](https://codepen.io "je consulte")
+- Documents sur Canvas [Cheatsheet Canvas](https://simon.html5.org/dump/html5-canvas-cheat-sheet.html "je consulte"), [sur le whatvg](https://html.spec.whatwg.org/multipage/canvas.html "je consulte"), [sur mozilla developper](https://developer.mozilla.org/fr/docs/Tutoriel_canvas "je consulte") et [html5canvastutorials avec des exemples](https://www.html5canvastutorials.com "je consulte"). Il existe un pluign AI->Canvas (visitmix.com)
+- Suivre l'actualité du SVG sur le W3C et aller voir sur Mozilla developper MDN.
+- Pour valider : html5validator.nu / about.validator.nu / w3c.validator  (about aussi)
+- Pour tester : webpagetest.org / takeitweb
+- Référence : a list apart / zeldman.com / https://www.smashingmagazine.com/ / Le blog de Video2brain / http://www.puce-et-media.com/ (<- plein de liens dans la barre en haut)
