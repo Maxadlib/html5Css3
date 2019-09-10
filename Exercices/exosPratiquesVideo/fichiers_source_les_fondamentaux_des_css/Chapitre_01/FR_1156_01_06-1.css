@@ -1,0 +1,7 @@
+body>header, body>footer, body>aside {
+	display:none;
+}
+body {
+	font-size:12pt;
+	line-height:1.5;
+}

@@ -1,0 +1,16 @@
+p:first-child {
+}
+p:last-child {
+}
+p:nth-child(odd) { /*even*/
+}
+p:nth-child(4) { 
+}
+p:nth-child(2n+3) { 
+}
+p:nth-child(-n+3) { 
+}
+p:hover {
+	font-size:18px;
+	background-color: #DFFFBF;
+}

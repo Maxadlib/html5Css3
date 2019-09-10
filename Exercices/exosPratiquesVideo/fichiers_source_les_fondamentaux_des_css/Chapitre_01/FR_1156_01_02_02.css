@@ -1,0 +1,84 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	background: #F2F1E9;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0 auto;
+	color: #666;
+	line-height: 1.5em;
+	width:960px;
+}
+header {
+	height: 317px;
+	background-image: url(../images/graz__MG_7041.jpg);
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	position:relative;
+}
+header h1 {
+	font-size: 4.2em;
+	letter-spacing: 4px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: rgba(207,151,190,1.00);
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+}
+nav {
+	background-color: rgba(22,5,13,1.00);
+	border-bottom : 4px solid rgba(207,151,190,1.00);
+}
+nav ul { 
+	font-size: 1.6em;
+	text-align:right;
+}
+nav li {
+	list-style-type: none;
+	display:inline-block;
+	color:rgba(207,151,190,1.00);
+	cursor: pointer;
+	padding: 20px;
+}
+nav li:hover {
+	background-color: #333 ;
+}
+main {
+	display: block;
+	padding-top:34px;
+}
+article {
+	display: inline-block;
+	width:30%;
+	transition: all 1s;
+	margin-top:0;
+	vertical-align:top;
+}
+article img {
+	width:100%;
+	margin-top:20px;
+}
+article + article {
+	margin-left:2%;
+}
+article.largest {
+	width:100%;
+	margin:0;
+}
+article h2 {
+	color: rgba(101,36,70,1.00);
+	font-size: 1.8em;
+	padding : 10px 0 15px 0;
+	cursor: pointer;
+}
+footer {
+	font-size: 11px;
+	color: #ccc;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 0;
+	border-top: 1px solid #ccc;
+	background-color: rgba(22,5,13,1.00);
+}

@@ -1,0 +1,16 @@
+
+.notes {
+	color:#85B200;
+}
+#notes {
+	color:#00698C;
+}
+section article {
+	/*background-color:#DFFFBF;*/
+}
+article section {
+	background-color:#DFFFBF;
+}
+aside h1, section h1 {
+	text-decoration: underline;
+}

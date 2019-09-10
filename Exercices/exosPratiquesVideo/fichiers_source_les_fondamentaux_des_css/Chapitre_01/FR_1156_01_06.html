@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Les Media Queries</title>
+<link rel="stylesheet" media="print" href="FR_1156_01_06-1.css">
+<link rel="stylesheet" media="screen and (min-width: 399px)" type="text/css" href="FR_1156_01_06-2.css" >
+<style type="text/css">
+	body {
+		font-family: “Arial”, sans-serif;
+		line-height: 1.5;
+	}
+	section {
+		margin:0 auto;
+		padding:0 2em;
+	}
+	@media (min-width: 700px){
+		section {
+			width:700px;
+			padding:0 2em;
+			border: 0.25em solid hsla(64,12%,24.5%,0.8);
+			background-color: hsla(64,12%,24.5%,0.3);
+			border-radius: 1.5em;
+			font-size: 1.25em;
+		}
+	}
+	@media (min-width: 400px) and (max-width: 699px){
+		section {
+			width:80%;
+			background-color: hsla(64,12%,24.5%,0.3);
+			border-radius: 1.5em;
+			font-size: 1em;
+		}
+	}	
+</style>
+</head>
+
+<body>
+<section>
+	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, distinctio, accusantium, sit, rerum architecto quidem eveniet provident voluptas eligendi facilis cupiditate sunt cum id odio ullam doloribus voluptatum. Suscipit, quasi.</p>
+	<p>Deserunt, quibusdam ea adipisci inventore alias vitae eius illo fuga quaerat. Fugit, assumenda, ab, consequatur deleniti atque dignissimos quisquam maiores amet aperiam optio natus possimus repellendus perferendis beatae sed nobis.</p>
+	<p>Dolor, voluptate, ipsum, molestiae, at laudantium reiciendis facilis accusantium expedita fugiat voluptatum nisi deserunt. Recusandae, assumenda, blanditiis natus totam perferendis suscipit impedit eveniet repellat ratione ipsam voluptatem dolorem beatae reprehenderit!</p>
+</section>
+</body>
+</html>

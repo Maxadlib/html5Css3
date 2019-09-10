@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Les arrière-plans</title>
+<style>
+	body {
+		font-family: Verdana;
+		color: brown;
+		font-size: 14px;
+	}
+	div {
+		background-color: lightgray;
+		height: 140px;
+		width: 80%;
+		padding-left:20px;
+		margin: 6px auto;
+	}
+	.degrade {
+		height: 30px;
+		line-height: 30px;
+		background: linear-gradient(rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.image {
+		background: url(../images/mur_fond.png);
+	}
+	/*repeat-y repeat-x no-repeat  space round*/
+	.repeat {
+		border:1px solid hsl(30, 100%, 40%);
+		background: url(../images/mur_fond.png) round;
+	}
+
+	.position {
+		border: 1px solid hsl(30, 100%, 40%);
+		background: lightgray url(../images/mur_fond.png) no-repeat 10px 50%;
+	}
+	/*cover contain 240px 50%*/
+	.size {
+		border: 1px solid hsl(30, 100%, 40%);
+		background: url(../images/mur_fond.png) no-repeat;
+		background-size: 100px;
+	}
+</style>
+</head>
+
+<body>
+    <div class="degrade">Couleur ou dégradé</div>
+    <div class="image"></div>
+    <div class="repeat"></div>
+    <div class="position"></div>
+    <div class="size"></div>
+</body>
+</html>

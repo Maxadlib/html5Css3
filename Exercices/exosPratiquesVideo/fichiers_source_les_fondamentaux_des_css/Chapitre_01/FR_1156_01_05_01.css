@@ -1,0 +1,6 @@
+@import url('FR_1156_01_05_02.css');
+section {
+	padding:0 2em;
+	border: 0.25em solid hsla(64,12%,24.5%,0.8);
+	background-color: hsla(64,12%,24.5%,0.3);
+}

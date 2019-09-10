@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>D'autres propriétés d'arrière-plans</title>
+<style>
+	body {
+		font-family:Verdana, sans-serif;
+		color: brown;
+		font-size: 18px;
+	}
+	div {
+		background-color: lightgray;
+		height: 60px;
+		width: 80%;
+		padding:40px;
+		margin: 10px auto;
+	}
+	/*border-box padding-box content-box*/
+	.origin {
+		border: 10px double hsl(30, 100%, 40%);
+		background: url(../images/mur_fond.png) no-repeat;
+		background-origin: content-box;
+	}
+	/*border-box padding-box content-box*/
+	.clip {
+		border: 10px double hsl(30, 100%, 40%);
+		background: url(../images/mur_fond.png) repeat;
+		background-clip: content-box; 
+	}
+	
+	body {
+		background: url(../images/mur_fond_transparent.png);
+		background-attachment: fixed ;
+	}
+	/*.attachment {
+		display:none;
+	}*/
+	/*scroll  fixed   local */
+	.attachment {
+		height: 1000px;
+		border: 1px solid hsl(30, 100%, 40%);
+		overflow:auto;
+		background: url(../images/mur_fond_transparent.png);
+		background-attachment: local ;
+	}
+	
+</style>
+</head>
+
+<body>
+    <div class="origin"></div>
+    <div class="clip"></div>
+    <div class="attachment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quam, qui, distinctio, iure totam natus dolore corporis molestias maxime sit nobis neque reiciendis voluptate. Quod, minus adipisci iure totam quasi cupiditate perferendis laudantium ducimus in quae sint sit incidunt tempore. Assumenda, beatae, at perferendis amet doloremque architecto doloribus incidunt quaerat cumque nesciunt alias rerum natus impedit repellat inventore molestias dolore esse maxime aliquid maiores! Delectus, reiciendis autem quas nostrum deleniti. Dolore, accusamus, pariatur quibusdam debitis tempore non beatae consequatur ex ipsum reiciendis modi molestias laborum ullam. Ullam, esse dignissimos ipsam vel possimus quae saepe repellat ex illum atque sit omnis provident qui aspernatur quam iure minus facere nostrum dolor aut dolores dicta porro voluptas culpa quod laboriosam nihil enim ipsa repellendus fugit. Eaque, dignissimos, delectus, iure, molestiae explicabo quasi beatae laborum nihil magnam nemo dolore unde a nobis doloribus ea sint odio animi neque. Veritatis, facilis, omnis, tempore, aperiam nobis corporis distinctio cumque consectetur ea odit quisquam magnam libero? Commodi, sequi, quas, unde eligendi voluptatibus autem perspiciatis adipisci fugit consequuntur necessitatibus minus dolorum quisquam temporibus. Quasi, quibusdam, dolores, eos, impedit deserunt quisquam molestias natus adipisci soluta blanditiis sit quae vitae laborum enim dolor consequatur recusandae dolore ipsa assumenda ea eveniet temporibus fugit ut iusto molestiae placeat nostrum distinctio explicabo illo reiciendis at saepe minima amet aperiam tempore vero libero laboriosam. Tempore, tempora, quo, qui, doloremque quidem voluptatum dicta molestiae esse distinctio nesciunt totam labore. Quos, laboriosam, nostrum, necessitatibus, cumque culpa tempora totam illo ipsum provident aliquam voluptate minus distinctio odio dignissimos enim dolore aspernatur! Atque, fugiat, officia minima molestiae unde accusantium tenetur blanditiis libero ipsa aliquam dolorum harum illum autem. Minus, nam, modi, nostrum necessitatibus culpa iure minima neque tempore quisquam velit commodi ipsum consequuntur in mollitia pariatur dolore et nobis cupiditate aliquid animi aliquam eius porro ea! Illo, deleniti.</div>
+</body>
+</html>

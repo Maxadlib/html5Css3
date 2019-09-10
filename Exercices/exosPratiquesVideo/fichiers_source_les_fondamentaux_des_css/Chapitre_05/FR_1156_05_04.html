@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Fusion des marges</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<style>
+		body {
+			font-family:  "Avant Garde",Avantgarde,sans-serif;
+			color: grey;
+			background: #fff url(../css/grille-10px.png);
+		}
+		p {
+			font-size:50px;
+			line-height:50px;
+			width :200px;
+			margin:50px;
+			border:50px solid hsla(359,57%,26%,0.27);
+			box-sizing: border-box;
+			float:left;/**/
+		}
+		.precedent {
+			margin-bottom: 25px;
+		}
+		.suivant {
+			/*margin-top:100px;*/
+			margin:100px;
+			border-color:hsla(359,57%,26%,0.67);
+		}
+	</style>
+</head>
+<body>
+	<p class="precedent">1.</p>
+    <p class="suivant">2.</p>
+    <p>3.</p>
+</body>
+</html>

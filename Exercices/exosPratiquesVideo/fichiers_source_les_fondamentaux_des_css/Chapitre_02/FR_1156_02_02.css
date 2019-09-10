@@ -1,0 +1,13 @@
+p {
+	font-size: 16px;
+	color:#00698C;
+}
+h1 {
+	font-size: 18px;
+}
+section h1 {
+	color:#85B200;
+}
+* {
+	margin:0;
+}

@@ -1,0 +1,33 @@
+
+		body {
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+			color: darkslategray;
+			font-size: 24px;
+			background-color: lightgray;
+		}
+		div {
+			height: 80px;
+			line-height: 80px;
+			padding-left:40px;
+			width: calc(100% - 40px);
+			margin: 14px 0;
+			border-radius:20px;
+			/*color:blueviolet;*/
+		}
+		h2 {
+			text-align: center;
+			background-color: brown;
+			color: lightgray;
+			line-height: 40px;
+		}
+		article {
+			width:90%;
+			margin:40px auto;
+		}
+		section {
+			float:left;
+			width:calc(22% - 4px);
+		}
+		section + section {
+			margin-left:calc(4% - 4px);
+		}

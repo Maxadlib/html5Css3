@@ -1,0 +1,14 @@
+.notes {
+	background-color: #DFFFBF;
+}
+
+.notes p{
+	font-size: 20px;
+
+}
+p .notes {
+	color: #993333;
+}
+p.notes {
+	background-color: #9CBBC6;
+}

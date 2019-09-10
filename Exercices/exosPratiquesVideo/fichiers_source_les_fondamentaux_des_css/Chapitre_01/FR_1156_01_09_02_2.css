@@ -1,0 +1,12 @@
+p 	{
+	font-family: “Arial”, sans-serif;
+	font-size: 2.25em;
+	line-height: 125%;
+	color: hsla(64,12%,24.5%,0.9);
+ }
+section {
+	padding:0 2em;
+	border: 0.25em solid hsla(64,12%,24.5%,0.8);
+	background-color: hsla(64,12%,24.5%,0.3);
+	border-radius: 1.5em;
+}

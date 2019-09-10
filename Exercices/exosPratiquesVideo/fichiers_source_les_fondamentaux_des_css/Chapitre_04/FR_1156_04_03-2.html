@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Les dégradés</title>
+<style>
+	div {
+		height: 60px;
+		width: 60px;
+		margin: 10px 5px;
+	}
+	hr {
+		margin: 0 0 0 400px;
+		border:none;
+		border-bottom: 1px dotted hsl(30, 100%, 40%);
+	}
+	.base {
+		width: 200px;
+		background: radial-gradient(rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.etude {
+		width: 400px;
+		background: radial-gradient(ellipse farthest-corner at 20% 300%
+			, rgb(255,153,51) 50%, hsl(30, 100%, 40%) 50%);
+	}
+	.fsbr {
+		width: 200px;
+		background: radial-gradient( circle farthest-side at bottom right, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.csbr {
+		display: inline-block;
+		margin-left:5px;
+		/*width: 300px;*/
+		background: radial-gradient( ellipse farthest-side at bottom right, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.direct {
+		display: inline-block;
+		margin-left:5px;
+		background: radial-gradient( circle farthest-side at bottom right, rgb(255,153,51) 50%, hsl(30, 100%, 40%) 50%);
+	}
+	.directsimple {
+		display: inline-block;
+		margin-left:5px;
+		background: radial-gradient( rgb(255,153,51) 50%, hsl(30, 100%, 40%) 50%);
+	}
+	.fcbr {
+		background: radial-gradient( circle farthest-corner at bottom right, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.fctr {
+		display: inline-block;
+		background: radial-gradient( circle farthest-corner at top right, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.fctl {
+		display: inline-block;
+		margin-left:5px;
+		background: radial-gradient( circle farthest-corner at top left, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.sphere {
+		display: inline-block;
+		border-radius: 50%;
+		background: radial-gradient( circle farthest-corner at center center, rgb(255,153,51), hsl(30, 100%, 40%));
+	}
+	.multiple {
+		display: inline-block;
+		margin-left:5px;
+		border-radius: 50%;
+		background: repeating-radial-gradient( rgb(255,153,51), rgb(255,153,51) 10%, hsl(30, 100%, 40%) 10%, hsl(30, 100%, 40%) 20%);
+	}
+</style>
+</head>
+
+<body>
+	<div class="base"></div>
+	<div class="etude"></div>
+	<div class="fsbr"></div>
+	<div class="csbr"></div>
+	<div class="direct"></div>
+	<div class="directsimple"></div>
+    <div class="fcbr"></div>
+    <div class="fctr"></div>
+    <div class="fctl"></div>
+    <hr>
+    <div class="sphere"></div>
+    <div class="multiple"></div>
+</body>
+</html>

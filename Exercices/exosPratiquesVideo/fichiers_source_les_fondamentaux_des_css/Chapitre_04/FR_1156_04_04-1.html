@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>La gestion des bordures</title>
+<style>
+	body {
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color: hsl(30, 100%, 40%);
+		font-size: 18px;
+	}
+	div {
+		background-color: lightgray;
+		height: 30px;
+		width: 80%;
+		padding-left:20px;
+		margin: 10px auto;
+	}
+	.simple {
+		border-width: 6px;
+		border-style: solid;
+		border-color: hsl(30, 100%, 40%);
+		/*border: 6px solid hsl(30, 100%, 40%);*/
+	}
+	.dotted {
+		border: 6px dotted hsl(30, 100%, 40%);
+	}
+	.dashed {
+		border: 6px dashed hsl(30, 100%, 40%);
+	}
+	.double {
+		border: 6px double hsl(30, 100%, 40%);
+	}
+	.groove {
+		border: 6px groove hsl(30, 100%, 40%);
+	}
+	.ridge {
+		border: 6px ridge hsl(30, 100%, 40%);
+	}
+	.inset {
+		border: 6px inset hsl(30, 100%, 40%);
+	}
+	.outset {
+		border: 6px outset hsl(30, 100%, 40%);
+	}
+	/*  hidden none  */
+</style>
+</head>
+
+<body>
+    <div class="simple">solid</div>
+    <div class="dotted">dotted</div>
+    <div class="dashed">dashed</div>
+    <div class="double">double</div>
+    <div class="groove">groove</div>
+    <div class="ridge">ridge</div>
+    <div class="inset">inset</div>
+    <div class="outset">outset</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	<meta charset="UTF-8">
+	<title>Spécificités et poids des sélecteurs</title>
+	<style>
+	section {
+		font-size: 24px;
+		background-color:lightgray;
+	}
+	#id {
+		background-color: purple;
+	}
+	.classe {
+		background-color: orange;
+	}
+	section ul {
+		background-color: lightblue;
+	}
+	ul {
+		background-color: olive;
+	}
+	#a {
+		color:olive;
+	}
+	.b.c.d.e.f.g.h.i.j.k.l.m.n {
+		color:orange;
+	}
+	</style>
+	</head>
+	<body>
+    <section>
+      <h1>Spécificités et poids sur p</h1>
+      <ul class="classe" id="id" style="background-color: gray;">
+        <li>Balise unique : vert</li>
+        <li>Balises multiples : bleu</li>
+        <li>Classes : orange</li>
+        <li>ID : violet</li>
+        <li>Style en ligne : gris</li>
+      </ul>
+    	<p id="a" class="b c d e f g h i j k l m n">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum delectus earum, quia optio quas inventore, quidem reprehenderit architecto. Harum illo assumenda itaque atque, optio qui neque magni laboriosam possimus aliquam.</p>
+    </section>
+</body>
+</html>

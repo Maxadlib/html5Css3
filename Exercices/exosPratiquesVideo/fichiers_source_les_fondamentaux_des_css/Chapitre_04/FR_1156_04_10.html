@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>L'ombrage de boîte</title>
+<style>
+	body {
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color: hsl(30, 100%, 40%);
+		font-size: 18px;
+	}
+	div {
+		background-color: lightgray;
+		height: 200px;
+		width: 80%;
+		padding:20px;
+		margin: 20px auto;
+		border-radius:20px;
+	}
+	/*   h-shadow v-shadow blur spread color inset/vide */
+	.ombreexterne {
+		box-shadow: 10px 20px 40px -10px #873434;
+	}
+	.ombreinterne {
+		box-shadow: inset -4px 6px 65px 34px #382f2f;
+	}
+	
+</style>
+</head>
+
+<body>
+    <div class="ombreexterne">Ombre portée</div>
+    <div class="ombreinterne">Ombre intérieure</div>
+</body>
+</html>

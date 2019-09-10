@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+	<title>Prise en compte du navigateur</title>
+	<script>
+		//document.createElement('section');
+	</script>
+	<!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/yepnope/1.5.0/yepnope.js"></script>
+	<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
+	<script>
+		var verification = !document.addEventListener;
+    	if (verification) {	
+			console.log("c'est une ancienne version")
+		} else {
+			console.log("c'est une version plus récente")
+		} 
+		 yepnope({ test : verification, yep  : 'FR_1156_01_07_1.css', nope : 'FR_1156_01_07_2.css' });
+    </script>
+
+
+	<link rel="stylesheet" href="FR_1156_01_07_2.css">
+	<style>
+		section {
+			font-family: "Arial", sans-serif;
+			font-size: 2.25em;
+			line-height: 125%;			
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis perspiciatis cum facere commodi consequatur facilis sit labore incidunt obcaecati voluptatibus nihil sunt quidem velit quam asperiores quo, atque repudiandae ipsam?</p>
+		<p>Voluptatem quam magni debitis aliquam. Ullam officia alias iusto id quis possimus mollitia consequuntur, ut eligendi culpa impedit, laudantium earum! Tempore labore animi dolorum dolorem aperiam rem ad maiores eveniet.</p>
+	</section>
+</body>
+</html>

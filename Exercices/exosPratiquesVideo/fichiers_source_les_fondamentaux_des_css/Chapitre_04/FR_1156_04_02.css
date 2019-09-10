@@ -1,0 +1,41 @@
+
+		body {
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+			color: darkslategray;
+			font-size: 18px;
+			background-color: lightgray;
+		}
+		.txt {
+			color: lightblue;
+		}
+		div {
+			height: 40px;
+			padding: 10px 0 10px 40px;
+			width: calc(100% - 40px);
+			margin: 14px 0;
+			border-radius:20px;
+			/*color:blueviolet;*/
+		}
+		div span {
+			display: block;
+			font-size: 0.65em;
+			padding-top:5px;
+			font-style: italic;
+		}
+		h2 {
+			text-align: center;
+			background-color: brown;
+			color: lightgray;
+			line-height: 30px;
+		}
+		article {
+			width:90%;
+			margin:40px auto;
+		}
+		section {
+			float:left;
+			width:calc(22% - 4px);
+		}
+		section + section {
+			margin-left:calc(4% - 4px);
+		}

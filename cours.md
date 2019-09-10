@@ -46,3 +46,7 @@
 - Pour valider : html5validator.nu / about.validator.nu / w3c.validator  (about aussi)
 - Pour tester : webpagetest.org / takeitweb
 - Référence : a list apart / zeldman.com / https://www.smashingmagazine.com/ / Le blog de Video2brain / http://www.puce-et-media.com/ (<- plein de liens dans la barre en haut)
+### Vidéo "L'essentiel des CSS"
+- L'histoire de CSS [sur Wikipedia](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade "je consulte")
+- Intéressant ! > [les specs sur W3.org](https://www.w3.org/Style/CSS/specs.fr.html "je consulte")
+- Intéressant ! > [les pseudo-classes sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes "je consulte")

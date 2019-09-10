@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Liens et arrière-plan</title>
+<style>
+	a {
+		display:block;
+		margin:10px;
+		padding-left:24px;
+		text-decoration:none;
+		background-repeat:no-repeat;
+		background-position: left center;
+	}
+	[href] {
+		background-image: url(../images/interne.png);
+	}
+	[href^="http://"] {
+		background-image: url(../images/externe.png);
+	}
+	[href$="pdf"] {
+		background-image: url(../images/pdf.png);
+	}
+	[href$="xls"] {
+		background-image: url(../images/xls.png);
+	}
+</style>
+</head>
+
+<body>
+    <a href="fichier.pdf">Lien fichier PDF</a>
+    <a href="fichier.xls">Lien fichier XLS</a>
+    <a href="http://www.puce-et-media.com">Lien externe</a>
+    <a href="fichier.html">Lien interne</a>
+</body>
+</html>

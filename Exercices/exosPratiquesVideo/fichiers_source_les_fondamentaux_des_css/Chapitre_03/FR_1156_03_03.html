@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Les diverses valeurs</title>
+	
+	<style>
+		body {
+			 font-family:  "Avant Garde",Avantgarde,sans-serif;
+			 color: rgba(76,102,0,0.85);
+			 background: #fff url(FR_1156_03_03.png) repeat-y;
+			 counter-reset: titre; 
+		}
+		.editorial {
+			color: inherit;
+		}
+		article {
+			color: lightgrey;
+			margin:10px 0;
+			font-size: 1.2em;
+			margin-left: calc(200px + (2*1.2em));
+			counter-increment: titre;
+		}
+		h1 {
+			font-size: x-large;
+		}
+		h1:before {
+			content: counter(titre) " - ";
+		}
+		h1:after {
+			content: " "  attr(data-ref) " " "\2618";
+		}
+	</style>
+</head>
+<body>
+	<article class="editorial">
+		<h1 data-ref="A46-1">Titre de l'article</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed eum repellat dicta, animi facere! Quo possimus iste, cum nulla, doloribus explicabo quod reprehenderit eum aspernatur nobis quidem tenetur delectus! Suscipit ipsa quo voluptatem sapiente fugiat aspernatur laborum commodi, facere distinctio natus non autem atque eius, repudiandae tempora eaque assumenda laudantium blanditiis quae quaerat repellendus quam delectus ex. Dolore, ullam. </p>
+	</article>
+	<article>
+		<h1 data-ref="B57-3">Titre de l'article</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat minus magni in atque corporis eveniet consequuntur quis fugit beatae id, ipsum nisi eos veniam voluptatibus, quibusdam doloremque natus amet officia. Quo, at iusto debitis neque corporis culpa earum qui nobis aut quisquam asperiores deleniti? Error accusamus saepe rem consequatur vero ipsa odio, illo voluptas, a magni? Provident quo hic repudiandae. </p>
+	</article>
+	<article>
+		<h1 data-ref="B57-4">Titre de l'article</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis qui atque, amet? Ab reprehenderit delectus, ipsum. Dolor accusantium modi perspiciatis dolorum minima quasi aliquam tempore quam fugiat veritatis, odio natus? Omnis blanditiis nulla, ab cum quisquam dolorem nihil neque placeat saepe, dolore magni accusantium asperiores dolores, explicabo at. Accusamus ipsam eveniet sequi sit quam nesciunt dignissimos at quibusdam doloremque iste. </p>
+	</article>
+</body>
+</html>

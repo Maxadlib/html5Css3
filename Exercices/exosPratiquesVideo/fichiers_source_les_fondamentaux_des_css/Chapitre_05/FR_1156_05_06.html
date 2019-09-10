@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	<meta charset="UTF-8">
+	<title>les autres modes d'affichage</title>
+	<style>
+    body {
+    	font-family: "Avant Garde", Avantgarde, sans-serif;
+    	color: grey;
+    	font-size: 20px;
+    	line-height: 20px;
+    }
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+    #liste span {
+      display: list-item;
+    }
+    #table article {
+      display: table-cell;
+      width: 33%;
+    }
+    #table .couleurfond {
+      background-color: rgba(255,153,51,0.25);
+    }
+    #definition dt, #definition dd {
+      display: inline;
+      margin: 0;
+    }
+      #definition dt {
+        font-weight: 700;
+      }
+    #definition dt:after {
+      content: " : ";
+    }
+    #definition dd:after {
+      content: "\000D\000A";
+      white-space: pre;
+    }
+  </style>
+	</head>
+	<body>
+    <section id="liste"> 
+    <!-- (span>lorem6)*6 --> 
+      <span>Lorem ipsum dolor sit amet, consectetur.</span> <span>Eum debitis vero saepe labore nemo!</span> <span>Ratione harum eos quis laboriosam atque!</span> <span>Assumenda, nam inventore maxime aliquam blanditiis.</span> <span>Omnis similique optio veniam est temporibus!</span> <span>Nam maxime voluptatibus eius deleniti iste.</span> </section>
+    <section id="table">
+    <!-- (div>h1{titre $}+p>lorem)*3 -->
+      <article>
+        <h1>titre 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, eaque autem quae aut nisi maxime excepturi dicta rerum illo quos nam facilis veritatis quo quia culpa consectetur officiis facere architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ut, nobis, ad, temporibus quam modi rerum minima quaerat at corrupti reiciendis iste commodi. Hic, harum asperiores nesciunt quia blanditiis saepe!</p>
+      </article>
+      <article class="couleurfond">
+        <h1>titre 2</h1>
+        <p>Repellat officia illo atque molestias consequuntur minima fugiat fugit nemo earum facilis! Dignissimos, eos, repellendus.</p>
+      </article>
+      <article>
+        <h1>titre 3</h1>
+        <p>Delectus, accusantium, porro, quae doloribus voluptas laudantium error labore explicabo facere saepe molestias nemo magni tenetur molestiae nisi odit dolorum hic sit fugiat deserunt. Obcaecati voluptate nesciunt facilis doloremque inventore! Nihil nesciunt accusamus nostrum hic vero facilis amet veniam architecto nulla maxime veritatis totam reiciendis.</p>
+      </article>
+    </section>
+    <section id="definition">
+    <!-- dl>(dt{Définition}+dd>lorem)*2 -->
+    	<dl>
+        <dt>Mot à définir</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, iure, non odio neque a ab? Cumque, quod dolorum qui repellat iste inventore enim nam culpa ut nemo natus consequuntur alias.</dd>
+        <dt>Autre définition</dt>
+        <dd>Blanditiis, doloribus, in, quo laborum ipsa qui voluptas est earum temporibus sapiente obcaecati magnam porro dicta aperiam quaerat non nemo deleniti reprehenderit cum libero culpa atque facere animi modi quas?</dd>
+      </dl>
+    </section>
+</body>
+</html>

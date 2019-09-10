@@ -1,0 +1,14 @@
+/*p[class] {
+[class="a"]{
+[class^="a"] {
+[class$="c"] {
+[class~="a"] {
+[class*="a"] {
+[class|="a"] {*/
+[class][id="a"] {
+	background-color: #DFFFBF;
+}
+
+p::before {
+	content: attr(class)"  - ";
+}
