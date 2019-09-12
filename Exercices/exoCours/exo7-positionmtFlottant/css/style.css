@@ -5,3 +5,27 @@ body {
 .vert{
   color: green;
 }
+section {
+  width :60%;
+  height : 100px;
+  margin :auto;
+}
+section div {
+  top:200px;
+  width:33%;
+  height:100px;
+  margin: 0;
+}
+.green {
+  background-color: green;
+  float:left;
+}
+.orange {
+  background-color: orange;
+  float:left;
+
+}
+.blue {
+  background-color: blue;
+  float:left;
+}
