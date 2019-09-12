@@ -50,3 +50,4 @@
 - L'histoire de CSS [sur Wikipedia](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade "je consulte")
 - Intéressant ! > [les specs sur W3.org](https://www.w3.org/Style/CSS/specs.fr.html "je consulte")
 - Intéressant ! > [les pseudo-classes sur MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes "je consulte")
+- [Intéressant >](http://romy.tetue.net/?lang=fr "je consulte")
