@@ -1,31 +1,27 @@
-@import url(./css/reset.css);
+@import url(reset.css);
 body {
   width: 100%;
-}
-.vert{
-  color: green;
+  border: black solid 1px;
+  padding : 10% 0 10% 0;
 }
 section {
   width :60%;
   height : 100px;
-  margin :auto;
+  margin : auto;
+  /* padding : auto; */
 }
 section div {
-  top:200px;
-  width:33%;
+  width:calc(100%/3);
   height:100px;
   margin: 0;
+  float: left;
 }
 .green {
   background-color: green;
-  float:left;
 }
 .orange {
   background-color: orange;
-  float:left;
-
 }
 .blue {
   background-color: blue;
-  float:left;
 }
