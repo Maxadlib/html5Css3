@@ -1,0 +1,35 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+body {
+  width: 100%;
+  background-color: yellow;
+}
+section div {
+  width: 120px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+.bground {
+  background-color: red;
+  height: 24px;
+  top: 40px;
+  box-shadow: 0px 0px 12px orangered;
+}
+.bground:hover {
+  box-shadow: 0px 0px 8px orangered;
+}
+.btn {
+  top: 0px;
+  background-color: orange;
+  text-align: center;
+}
+.btn:hover{
+  top: 4px;
+}
+.btn a {
+  /* display: block; */
+  text-decoration: none;
+  font: normal 2em "Yanone Kaffeesatz", sans-serif;
+  color: #ffffff;
+}
