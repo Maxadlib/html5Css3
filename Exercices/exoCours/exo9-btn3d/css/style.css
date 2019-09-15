@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
 body {
   width: 100%;
-  background-color: yellow;
+  background-color: #ffff01;
 }
 section div {
   width: 120px;
@@ -10,25 +10,26 @@ section div {
   border-radius: 8px;
   position: relative;
 }
-.bground {
-  background-color: red;
+.bkg {
+  background-color: #db1f04;
   height: 24px;
   top: 40px;
-  box-shadow: 0px 0px 12px orangered;
-}
-.bground:hover {
-  box-shadow: 0px 0px 8px orangered;
+  box-shadow: 0px 0px 12px #080808;
+  z-index: -1;
 }
 .btn {
-  top: 0px;
-  background-color: orange;
+  top: 56px;
+  background-color: #db5704;
   text-align: center;
 }
-.btn:hover{
-  top: 4px;
+.btn:active {
+  top: 60px;
+}
+.btn:active + .bkg {
+  box-shadow: 0px 0px 3px #080808;
 }
 .btn a {
-  /* display: block; */
+  display: block;
   text-decoration: none;
   font: normal 2em "Yanone Kaffeesatz", sans-serif;
   color: #ffffff;

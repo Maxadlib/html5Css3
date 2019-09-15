@@ -1,0 +1,205 @@
+@import url(reset.css);
+body {
+  --pColor: #ffffff;
+  --bgColor: #d7c9af;
+  --fColor: #444444;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 100%;
+  font: normal 1rem/1.5rem "Open sans", sans-serif;
+  color: var(--fColor);
+}
+h1, h2, h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1152px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: var(--pColor);
+}
+header {
+  padding-bottom: 1rem;
+  background-color: var(--bgColor);
+}
+div.logo {
+  width: calc(100%/3);
+  text-align: left;
+  padding-top: 1rem;
+}
+div.logo img {
+  width: 100%;
+}
+div.logo p {
+  display: inline-block;
+  margin-right: 1rem;
+}
+nav {
+  width: calc((100%/3)*2);
+  margin: auto;
+}
+nav ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav li {
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-size: .9rem;
+}
+nav a {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+nav a:hover {
+  transition: color 1s 0s, background-color 1s 0s;
+  color: var(--fColor);
+  background-color: #fff;
+}
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+#hero {
+  padding: 1.5rem 0;
+  min-width: 320px;
+}
+#welcome {
+  background-color: #b3a17e;
+  width: 100%;
+  color: var(--pColor);
+}
+#txtWelcome {
+  width: 38%;
+  margin: 1rem 1%;
+}
+#txtWelcome h2, #txtWelcome h3,#txtWelcome p{
+  margin: 1rem 0;
+}
+#txtWelcome p {
+  line-height: 2rem;
+}
+#imgWelcome {
+  display: block;
+  margin: auto 2%;
+  width: 46%;
+  height: 100%;
+}
+#joinme {
+  width: 100%;
+  background-color: var(--bgColor);
+}
+#joinme p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+#txtjoinme {
+  width: 60%;
+  padding: 2rem 5%;
+}
+#btnjoinme{
+  text-align: center;
+  width: 16%;
+  height: 100%;
+  background-color: #797163;
+  padding: 1rem 2%;
+  margin: auto 2%;
+  color: var(--pColor);
+  border-radius: .5rem;
+  box-shadow: inset 0px 1px 1px #d4c5ae;
+  border: 1px solid var(--fColor);
+  transition: background-color .5s linear;
+}
+#btnjoinme:hover {
+  background-color: #877e6e;
+  cursor: pointer;
+}
+#articles {
+  text-align: center;
+  padding: 2rem;
+}
+#articles h1{
+  width: 100%;
+}
+#articles article {
+  width: 23%;
+  margin:2rem 1%;
+}
+#articles h3{
+  font-size: 1rem;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-weight: 400;
+ }
+#articles hr{ 
+  height: 1px;
+  margin: 1em auto;
+  background-color: #aaaaaa;
+  border: 0;
+  width: 100%;
+  max-width: 204px;
+}
+#articles img{
+  width: 100%;
+  max-width: 204px;
+ }
+#articles a p {
+  color: var(--fColor);
+  padding: 1rem;
+  text-align: left;
+}
+#articles p::after{
+  content: "En\00a0\00a0savoir\00a0\00a0+";
+  font: italic .8rem "arial", sans-serif;
+  color: #aaaaaa;
+ }
+ footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #b3a17e;
+}
+footer p {
+  color: var(--pColor);
+  line-height: 2rem;
+  font-size: .9rem;
+}
+footer div{
+  width: calc(100%/3);
+}
+footer>hr{ 
+  height: 1px;
+  margin: 1em auto;
+  background-color: var(--pColor);
+  border: 0;
+  width: 100%;
+}

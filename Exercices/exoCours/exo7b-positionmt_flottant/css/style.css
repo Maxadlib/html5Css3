@@ -1,26 +1,26 @@
 @import url(reset.css);
 body {
   width: 100%;
-  font-size:100%;
+  font-size: 100%;
 }
 h2 {
-  font : bold 1.2rem/calc(1.2rem*2.5) "Open Sans", sans-serif;
-  padding-left : 0.5rem;
+  font: bold 1.2rem/calc(1.2rem*2.5) "Open Sans", sans-serif;
+  padding-left: 0.5rem;
 }
 header {
   background-color: #008300;
 }
 main {
   background-color: #FFFF00;
-  float:left;
-  width:80%;
+  float: left;
+  width: 80%;
 }
 nav {
   background-color: #FF0000;
-  float:right;
-  width:20%;
+  float: right;
+  width: 20%;
 }
 footer {
   background-color: #808080;
-  clear:none;
+  clear: none;
 }
