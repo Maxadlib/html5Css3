@@ -7,3 +7,6 @@
 - Les navigations sont faites avec `ul>li>a` Les listes sont très utilisées.
 - Utiliser position absolute en dernier recourt. voir FlexBox
 - btn 3D, avec balise a ou div
+## Live 1
+### 31/07/2019 18h>20h - Live 1
+- 
