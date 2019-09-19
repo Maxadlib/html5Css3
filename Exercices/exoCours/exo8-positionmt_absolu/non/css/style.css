@@ -5,29 +5,31 @@ body {
   padding: 100px 0 100px 0;
 }
 section {
-  width: 30%;
+  width: 60%;
   height: 200px;
   margin:auto;
-  position: relative;
 }
 section div {
-  width: 40%;
-  height:40%;
+  width:calc(100%/3);
+  height:100px;
 }
 .orange {
   background-color: #F7A831;
-  position: absolute;
+  position: relative;
+  float: left;
+  left: 5%;
 }
 .blue {
   background-color: #0044FF;
-  position: absolute;
-  left:30%;
-  top:30%;
+  position: relative;
+  top: 30%;
+  float: left;
 }
 .green {
   background-color: #B6D66B;
-  position: absolute;
-  right:0;
-  bottom:0;
+  float: right;
+  position: relative;
+  left: -5%;
+  top: 50%;
 }
 
